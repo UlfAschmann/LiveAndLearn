@@ -1,0 +1,480 @@
+/*******GENERALES********/
+
+/**Paleta de colores
+
+    AZUL MARINO = #0f2749
+    ROJO = #bc082f
+    GRIS = #d1d1d1
+*/
+
+@import url('vendor/font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway:200,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+@import url('fonts.css');
+
+a:hover
+{
+    text-decoration: none;
+}
+
+body
+{
+    color: #0f2749;
+    font-family: 'Raleway', sans-serif;
+}
+
+button, input[type="submit"]
+{
+    background:#bc082f;
+    border: 0;
+    color:white;
+    font-size: 12px;
+    padding:5px 28px;
+}
+
+h1
+{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 43px;
+    width: 100%;
+    margin-bottom:46px;
+}
+
+input
+{
+    border:1px solid #0f2749;
+    margin:0;
+    padding:0 8px;
+    height: 32px;
+}
+
+form
+{
+    display: flex;
+}
+
+strong.live
+{
+    font-family: 'Avenir Next LT Pro';
+}
+
+ul
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+/*******END - GENERALES********/
+
+/*****HEADER PRINCIPAL******/
+header
+{
+    display: flex;
+    margin-bottom:10px;
+    margin-top:10px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+    header .buscador
+    {
+        display: none;
+    }
+
+        header .buscador form
+        {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        header .buscador input:first-child
+        {
+            margin-right:8px;
+        }
+
+        header .buscador input[type="submit"]
+        {
+            color:#0f2749;
+            cursor: pointer;
+            background: white;
+            border:1px solid #0f2749;
+            height: 32px;
+            font-size: 12px;
+            margin:0;
+            padding: 0 14px;
+        }
+
+header .datosSociales
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+    header .datosSociales .separador 
+    {
+        background: #0f2749;
+        height: 50px;
+        width: 1px;
+    }
+
+header .logo-header
+{
+    display: none;
+}
+
+header .telefonos
+{
+    align-items: flex-start;
+    display: flex;
+}
+
+    header .telefonos button
+    {
+        cursor: pointer;
+        font-size: 11px;
+        width: 100%;
+        display: none;
+    }
+
+    header .telefonos h2
+    {
+        font-size: 12px;
+        line-height: 10px;
+        margin:0;
+        margin-bottom: 6px;
+        padding:0;
+    }
+
+    header .telefonos>img
+    {
+        margin-right: 12px;
+        display: none;
+    }
+
+    header .telefonos span
+    {
+        font-weight: bold;
+    }
+
+header .redesSociales a
+{
+    color:#0f2749;
+    font-size: 24px;
+    margin-left:2px;
+    margin-right:2px;
+}
+/*****>END - HEADER PRINCIPAL******/
+
+/******NAV********/
+
+nav #menuPrincipal
+{
+    background: #0f2749;
+}
+
+    nav #menuPrincipal
+    {
+        display: none;
+        margin-top:20px;
+    }
+
+        nav #menuPrincipal a
+        {
+             color:white;
+        }
+
+    nav #menuPrincipal li
+    {
+        padding-top:8px;
+        padding-bottom:8px;
+        padding-left:30px; 
+    }
+
+nav .headerMobile a
+{
+    margin-left: 10px;
+    width: 160px;   
+}
+
+    nav .headerMobile a img
+    {
+        width:160px;
+    }
+
+nav .toogle
+{
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    padding: 5px 13px;
+}
+/******END - NAV********/
+
+
+/******MAIN******/
+main
+{
+    padding-bottom: 60px;
+}
+
+    main section
+    {
+        padding-bottom:120px;
+    }
+
+    main section:first-child
+    {
+        padding-top:120px;
+    }
+
+    main section:last-child
+    {
+        padding-bottom:0;
+    }
+
+
+/******END MAIN******/
+
+/*******FOOTER********/
+footer
+{
+    background:#0f2749;
+    color:white;
+    padding:60px 0;
+}
+
+    footer h2
+    {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+
+    footer p
+    {
+        font-size: 10px;
+    }
+
+    footer input
+    {
+        background: transparent;
+        border:1px solid white;
+        color:white;
+        font-size: 10px;
+    }
+
+    footer input[type="submit"]
+    {
+        background: transparent;
+        border:1px solid white;
+    }
+
+        footer ul a
+        {
+            color:white;
+            text-decoration: none;
+        }
+
+            footer ul a:hover
+            {
+                color: white;
+                text-decoration: none;
+            }
+
+            footer ul li
+            {
+                border-bottom: 1px solid white;
+                margin-bottom:5px;
+            }
+
+            footer ul li:last-child
+            {
+                margin-bottom: 0;
+                border-bottom: none;
+            }
+
+    footer .legales p
+    {
+        text-align: center;
+        margin:0;
+        padding:0;
+    }
+
+    footer .logos
+    {
+        margin-top:15px;
+        text-align: center;
+    }
+
+    footer .newsletter,
+    footer .programas
+    {
+        display: none
+    }
+
+    footer .container .row:last-child
+    {
+        margin-top:35px;
+    }
+    
+/*******END FOOTER********/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){ 
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+    
+    /*****>HEADER PRINCIPAL******/
+    header
+    {
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .buscador
+    {
+        display: block;
+    }
+    
+    header .datosSociales
+    {
+        width: 35%;
+    }
+    
+    header .logo-header
+    {
+        display: block;
+    }
+    
+    header .telefonos>img
+    {
+        display: block;
+    }
+    
+    header .telefonos button
+    {
+        display: block;
+    }
+    /*****>HEADER PRINCIPAL******/
+    
+    /******NAV********/
+    
+    nav #menuPrincipal{
+        display: block;
+    }
+    
+    nav #menuPrincipal a
+    {
+        font-size: 14px;    
+    }
+    
+    nav #menuPrincipal ul
+    {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+    }
+    
+    nav #menuPrincipal li
+    {
+        flex-grow: 1;
+        padding-left: 0;
+    }
+    
+     nav .headerMobile
+    {
+        display: none;
+    }
+    /******END - NAV********/
+    
+    /******FOOTER********/
+    footer .newsletter,
+    footer .programas
+    {
+        display: block;
+    }
+    
+    footer .newsletter form
+    {
+        flex-direction: column;
+    }
+    
+        footer .newsletter input
+        {
+            margin-bottom:5px;
+            width: 100%;
+        }
+    
+    footer .legales p
+    {
+        text-align: left;
+        margin:0;
+        padding:0;
+    }
+
+    footer .logos
+    {
+        margin-top:15px;
+        text-align: right;
+    }
+    /******END-FOOTER********/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    
+    input[type="submit"]
+    {
+        margin-left: 10px;
+    }
+    
+    header .datosSociales
+    {
+        width: 30%;
+    }
+    
+    nav #menuPrincipal a
+    {
+        font-size:16px;
+    }
+    
+    footer .newsletter form
+    {
+        flex-direction: row;
+    }
+    
+    footer .newsletter input
+    {
+        width: 65%;
+    }
+    
+    footer .newsletter input[type="submit"]
+    {
+        width: 30%;
+    }
+    
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+    header
+    {
+        max-width: 1200px;
+    }
+    
+    nav #menuPrincipal ul
+    {
+        max-width: 1200px;
+        margin:0 auto;
+    }
+}
