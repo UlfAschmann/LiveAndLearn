@@ -1,0 +1,259 @@
+/********GALERÍA HOME********/
+
+#galeriaHome
+{
+    background: black;
+    display: none;
+    width: 100%;
+    height: 350px;
+    margin-bottom:140px;
+}
+
+/********END - GALERÍA HOME********/
+
+/********BUSCADOR PROGRAMAS********/
+#buscadorProgramas
+{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#buscadorProgramas select
+{
+    margin-bottom: 10px;
+}
+
+#buscadorProgramas input[type="submit"]
+{
+    margin-right:0
+}
+
+#buscadorProgramas form
+{
+    flex-direction: column;
+}
+/********END - BUSCADOR PROGRAMAS********/
+
+/********QUE ES LIVE AND LEARN********/
+#queEsLiveAndLearn p
+{
+    text-align: center
+}
+/********END - QUE ES LIVE AND LEARN********/
+
+/********BUSCAR PROGRAMA********/
+#buscarProgramas
+{
+    background: #0f2749;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+    #buscarProgramas h2
+    {
+        color: white;
+        font-size: 18px;
+        margin-bottom:30px;
+    }
+
+    #buscarProgramas form
+    {
+        flex-direction: column;
+    }
+        
+#buscarProgramas form select
+{
+    margin-bottom:10px;
+    font-size:14px;
+}
+
+#programas
+{
+    background: #d1d1d1;
+    padding-bottom:25px;
+    padding-top:25px
+}
+
+/********END - BUSCAR PROGRAMA********/
+
+/********PROMOCIONES********/
+#promociones
+{
+    margin-top:60px;
+}
+
+        #promociones .promoCarrusel h3
+        {
+            background: #d1d1d1;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom:0;
+            padding:12px;
+            text-transform: uppercase;
+        }
+
+        #promociones .infoPromocion
+        {
+            border:1px solid #d1d1d1;
+            padding:15px 0;
+        }
+
+            #promociones .infoPromocion button
+            {
+                width: 94%;
+                display: block;
+                margin: 15px auto 0 auto;
+            }
+
+            #promociones .infoPromocion h4
+            {
+                color:#bc082f;
+                font-size: 18px;
+                font-weight: bold;
+                padding:0 10px;
+            }
+
+            #promociones .infoPromocion li
+            {
+                border-bottom: 1px solid #d1d1d1;
+                padding:3px 10px;
+            }
+
+#promociones .infoPromocion .fa
+{
+    color:#bc082f;
+    margin-right:10px;
+}
+
+/********END - PROMOCIONES********/
+
+/********OPINION********/
+#opinion p
+{
+    margin:0;   
+}
+
+#opinion hr
+{
+    border-top:1px solid #bc082f; 
+    margin: 15px 0;
+    width: 40px;
+}
+
+#opinion .infoEstudiante
+{
+     color: #bc082f;
+     font-style: italic;
+}
+
+#opinion .nombreEstudiante
+{
+    color: #bc082f;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+/********END - OPINION********/
+
+/********COMPLETA EXPERIENCA********/
+#completaExperiencia
+{    
+    background: #d1d1d1;
+    padding:60px 30px; 
+}
+
+    #completaExperiencia h4
+    {
+        font-size: 18px;
+        margin-top:10px;
+    }
+
+    #completaExperiencia .col-6
+    {
+        text-align: center;
+    }
+
+/********END - COMPLETA EXPERIENCA********/
+
+/********ENTRADAS DE BLOG********/
+
+#entradasBlog
+{
+    padding-top:60px
+}
+
+    #entradasBlog .item
+    {
+        background: #bc082f;
+        color:white;
+        padding:15px;
+    }
+
+        #entradasBlog .item button
+        {
+            border: 1px solid white;
+            margin-top:24px;
+            width: 100%;
+        }
+
+        #entradasBlog .item h4,
+        #entradasBlog .item .tipo
+        {
+            border-bottom: 1px solid white;
+        }
+        
+        #entradasBlog .item h4
+        {
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom:10px;
+        }
+
+        #entradasBlog .item .tipo
+        {
+            margin:0;
+            padding-bottom:8px;
+        }
+
+        #entradasBlog .item .fecha
+        {
+            font-style: italic;
+            font-size: 14px;
+            margin:0;
+            margin-top: 5px;
+            padding:0;
+        }
+
+/********END - ENTRADAS DE BLOG********/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){ 
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+    #galeriaHome
+    {
+        display: block;
+    }
+    
+    #verProgramas form
+    {
+        flex-direction: row;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+    
+}
