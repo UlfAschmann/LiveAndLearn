@@ -4,7 +4,8 @@
 
     AZUL MARINO = #0f2749
     ROJO = #bc082f
-    GRIS = #d1d1d1
+    GRIS FUERTE= #d1d1d1
+    GRIS CLARO = #e2e2e2
 */
 
 @import url('vendor/font-awesome.css');
@@ -343,6 +344,11 @@ footer
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px){
+    
+    h1
+    {
+        font-size: 43px;
+    }
     
     /*****>HEADER PRINCIPAL******/
     header

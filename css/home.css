@@ -5,9 +5,89 @@
     background: black;
     display: none;
     width: 100%;
-    height: 350px;
     margin-bottom:140px;
+    padding:0;
 }
+
+    #galeriaHome .carousel-indicators
+    {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        left: 0;
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+    }
+
+        #galeriaHome .carousel-indicators li
+        {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            max-width: 10px;
+            margin: 1px;
+            text-indent: -999px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #000\9;
+            background-color: transparent;
+        }
+
+        #galeriaHome .carousel-indicators li.active
+        {
+            background: white;
+        }
+        
+        #galeriaHome .carousel-inner
+        {
+            height: 400px;
+            width: 100%;
+        }
+        
+            #galeriaHome .carousel-inner .carousel-item
+            {
+                 
+                height: 400px;
+                width: 100%;
+                
+                
+            }
+
+            #galeriaHome .carousel-inner #caruselUno
+            {
+                background: url(../img/home/slider/budapest.jpg) center center;
+                background-size: cover;
+            }
+    
+            #galeriaHome .carousel-inner #caruselDos
+            {
+                background: url(../img/home/slider/montreal.jpg) center center;
+                background-size: cover;    
+            }
+
+            #galeriaHome .carousel-inner #caruselTres
+            {
+                background: url(../img/home/slider/roma.jpg) center center;
+                background-size: cover;   
+            }
+
+            #galeriaHome .carousel-inner #caruselCuatro
+            {
+                background: url(../img/home/slider/tailandia.jpg) center center;
+                background-size: cover;      
+            }
+
+            #galeriaHome .carousel-inner #caruselCinco
+            {
+                background: url(../img/home/slider/tailandia2.jpg) center center;
+                background-size: cover;
+            }
 
 /********END - GALERÍA HOME********/
 
@@ -25,6 +105,7 @@
 #buscadorProgramas select
 {
     margin-bottom: 10px;
+    font-size: 14px;
 }
 
 #buscadorProgramas input[type="submit"]
@@ -70,15 +151,86 @@
     margin-bottom:10px;
     font-size:14px;
 }
+/********END - BUSCAR PROGRAMA********/
 
+/********PROGRAMAS********/
 #programas
 {
-    background: #d1d1d1;
+    background: #e2e2e2;
     padding-bottom:25px;
     padding-top:25px
 }
 
-/********END - BUSCAR PROGRAMA********/
+    #programas .prograCarrusel
+    {
+        background: #d1d1d1;
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+        -moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+        box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+    }
+
+    #programas .prograCarrusel h3
+    {
+         color:#bc082f;
+         font-weight: bold;
+         font-size: 18px;
+         margin-bottom:0;
+         padding:12px 12px 0 12px;
+    }
+
+    #programas .prograCarrusel h4
+    {
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom:0;
+        padding:0 12px 12px 12px;
+        text-transform: uppercase;
+    }
+
+    #programas .infoPromocion
+        {
+            border:1px solid #e2e2e2;
+            background: white;
+            padding:15px 0;
+        }
+
+            #programas .infoPromocion button
+            {
+                width: 94%;
+                display: block;
+                margin: 15px auto 0 auto;
+            }
+
+            #programas .infoPromocion h4
+            {
+                color:#bc082f;
+                font-size: 18px;
+                font-weight: bold;
+                padding:0 10px;
+            }
+
+            #programas .infoPromocion li
+            {
+                border-bottom: 1px solid #e2e2e2;
+                padding:3px 10px;
+            }
+
+            #programas .infoPromocion p
+            {
+                font-style: italic;
+                font-size: 12px;
+                padding: 10px;
+            }
+
+#programas .infoPromocion .fa
+{
+    color:#bc082f;
+    margin-right:10px;
+}
+
+/********END - PROGRAMAS********/
+
+
 
 /********PROMOCIONES********/
 #promociones
@@ -88,7 +240,7 @@
 
         #promociones .promoCarrusel h3
         {
-            background: #d1d1d1;
+            background: #e2e2e2;
             font-weight: bold;
             font-size: 14px;
             margin-bottom:0;
@@ -96,9 +248,39 @@
             text-transform: uppercase;
         }
 
+        .activeCarrusel .owl-nav
+        {
+            display: none;
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+
+            .activeCarrusel .owl-nav .owl-prev,
+            .activeCarrusel .owl-nav .owl-next
+            {
+                display: inline-block;
+                height: 62px;
+                width: 34px;
+            }
+
+            .activeCarrusel .owl-nav .owl-prev
+            {
+                margin-left:-9%;
+                background: url(../img/home/flechaIzq.png);
+            }
+
+            .activeCarrusel .owl-nav .owl-next
+            {
+                background: url(../img/home/flechaDer.png);
+                float: right;
+                margin-right:-8%;
+            }
+
         #promociones .infoPromocion
         {
-            border:1px solid #d1d1d1;
+            border:1px solid #e2e2e2;
             padding:15px 0;
         }
 
@@ -119,7 +301,7 @@
 
             #promociones .infoPromocion li
             {
-                border-bottom: 1px solid #d1d1d1;
+                border-bottom: 1px solid #e2e2e2;
                 padding:3px 10px;
             }
 
@@ -132,6 +314,11 @@
 /********END - PROMOCIONES********/
 
 /********OPINION********/
+#opinion
+{
+    display: none;
+}
+
 #opinion p
 {
     margin:0;   
@@ -162,7 +349,7 @@
 /********COMPLETA EXPERIENCA********/
 #completaExperiencia
 {    
-    background: #d1d1d1;
+    background: #e2e2e2;
     padding:60px 30px; 
 }
 
@@ -186,40 +373,46 @@
     padding-top:60px
 }
 
-    #entradasBlog .item
+    #entradasBlog .item img
+    {
+        display: none;
+        width: 100%;
+    }
+
+    #entradasBlog .infoItem
     {
         background: #bc082f;
         color:white;
         padding:15px;
     }
 
-        #entradasBlog .item button
+        #entradasBlog .infoItem button
         {
             border: 1px solid white;
             margin-top:24px;
             width: 100%;
         }
 
-        #entradasBlog .item h4,
-        #entradasBlog .item .tipo
+        #entradasBlog .infoItem h4,
+        #entradasBlog .infoItem .tipo
         {
             border-bottom: 1px solid white;
         }
         
-        #entradasBlog .item h4
+        #entradasBlog .infoItem h4
         {
             font-size: 18px;
             font-weight: bold;
             padding-bottom:10px;
         }
 
-        #entradasBlog .item .tipo
+        #entradasBlog .infoItem .tipo
         {
             margin:0;
             padding-bottom:8px;
         }
 
-        #entradasBlog .item .fecha
+        #entradasBlog .infoItem .fecha
         {
             font-style: italic;
             font-size: 14px;
@@ -232,7 +425,11 @@
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){ 
-    
+    .activeCarrusel .owl-nav
+        {
+            display: block;
+        }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -242,15 +439,108 @@
         display: block;
     }
     
+    #buscarProgramas form
+    {
+        flex-direction: row;
+    }
+    
+        #buscarProgramas form select
+        {
+            flex-grow: 2;
+        }
+    
+        #buscarProgramas form input[type="submit"]
+        {
+             flex-grow: 1;
+        }
+    
+    #buscarProgramas h2
+    {
+        color: #0f2749;
+        flex-direction: row;
+        font-weight: bold;
+        margin: 0;
+        padding:10px 0 10px 0;
+    }
+    
+    #buscarProgramas .col-md-auto
+    {
+        background: white;
+    }
+    
+    #buscadorProgramas
+    {
+        position: absolute;
+        left:0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        z-index: 10;
+        background: transparent;
+    }
+    
+        #buscadorProgramas form
+        {
+            background: white;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: -180px;
+            padding:5px;
+        }
+    
+        #buscadorProgramas form select
+        {
+            margin-right: 10px;
+        }
+    
     #verProgramas form
     {
         flex-direction: row;
+    } 
+    
+    #opinion
+    {
+        display: block;
+    }
+    
+    #opinion .opinionEstudiante
+    {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #opinion .opinionEstudiante .img
+    {
+        flex-grow: 1
+    }
+    
+    
+         #opinion .opinionEstudiante div
+        {
+            flex-grow: 2;
+            margin-left: 30px;
+        }
+    
+    #entradasBlog .item img
+    {
+        display: block;
     }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px){
-    
+     .activeCarrusel .owl-nav .owl-prev
+     {
+        margin-left:-5%;
+     }
+
+     .activeCarrusel .owl-nav .owl-next
+     {
+        margin-right:-4%;
+     }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
