@@ -94,12 +94,11 @@
 /********BUSCADOR PROGRAMAS********/
 #buscadorProgramas
 {
-    background: white;
+    background: #d1d1d1;
     display: flex;
     flex-direction: column;
-    padding:5px;
+    padding: 14px;
     margin-bottom: 50px;
-    margin-top: 20px;
 }
 
 #buscadorProgramas select
@@ -167,6 +166,8 @@
         -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
         -moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.5);
         box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+        margin: 0 auto;
+        width: 80%;
     }
 
     #programas .prograCarrusel h3
@@ -238,19 +239,24 @@
     margin-top:60px;
 }
 
-        #promociones .promoCarrusel h3
+        #promociones .promoCarrusel
         {
-            background: #e2e2e2;
-            font-weight: bold;
-            font-size: 14px;
-            margin-bottom:0;
-            padding:12px;
-            text-transform: uppercase;
+            margin:0 auto;
+            width: 80%;
         }
+
+            #promociones .promoCarrusel h3
+            {
+                background: #e2e2e2;
+                font-weight: bold;
+                font-size: 14px;
+                margin-bottom:0;
+                padding:12px;
+                text-transform: uppercase;
+            }
 
         .activeCarrusel .owl-nav
         {
-            display: none;
             position: absolute;
             top:50%;
             transform: translateY(-50%);
@@ -267,7 +273,7 @@
 
             .activeCarrusel .owl-nav .owl-prev
             {
-                margin-left:-9%;
+                margin-left:-4%;
                 background: url(../img/home/flechaIzq.png);
             }
 
@@ -275,7 +281,7 @@
             {
                 background: url(../img/home/flechaDer.png);
                 float: right;
-                margin-right:-8%;
+                margin-right:-3%;
             }
 
         #promociones .infoPromocion
@@ -373,6 +379,12 @@
     padding-top:60px
 }
 
+#entradasBlog .item
+{
+    margin:0 auto;
+    width: 80%;
+}
+
     #entradasBlog .item img
     {
         display: none;
@@ -426,10 +438,17 @@
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){ 
     .activeCarrusel .owl-nav
-        {
-            display: block;
-        }
-
+    {
+        display: block;
+    }
+    
+    #promociones .promoCarrusel,
+    #programas .prograCarrusel,
+    #entradasBlog .item
+    {
+        margin:0;
+        width:100%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -468,6 +487,16 @@
         background: white;
     }
     
+    #completaExperiencia .col-6
+    {
+        border-right: 1px solid #0f2749;
+    }
+    
+        #completaExperiencia .col-6:last-child
+        {
+             border-right:none;
+        }
+    
     #buscadorProgramas
     {
         position: absolute;
@@ -486,7 +515,7 @@
             flex-direction: row;
             justify-content: center;
             margin: 0 auto;
-            margin-top: -180px;
+            margin-top: -170px;
             padding:5px;
         }
     
@@ -512,17 +541,22 @@
         flex-direction: row;
     }
     
-    #opinion .opinionEstudiante .img
+    #opinion .opinionEstudiante img
     {
-        flex-grow: 1
+        width: 250px;
     }
-    
     
          #opinion .opinionEstudiante div
         {
             flex-grow: 2;
             margin-left: 30px;
         }
+    
+    #entradasBlog .item
+    {
+        margin:0;
+        width: 100%;
+    }
     
     #entradasBlog .item img
     {

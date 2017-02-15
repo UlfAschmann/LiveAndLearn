@@ -13,9 +13,20 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
 @import url('fonts.css');
 
+a, button, input[type="submit"]
+{
+    transition:all .5s ease;
+}
+
 a:hover
 {
+    opacity: .6;
     text-decoration: none;
+}
+
+button:hover, input[type="submit"]:hover
+{
+    color:rgba(255,255,255,.6);
 }
 
 body
@@ -208,6 +219,15 @@ nav #menuPrincipal
         padding-left:30px; 
     }
 
+nav .headerMobile
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
 nav .headerMobile a
 {
     margin-left: 10px;
@@ -297,6 +317,7 @@ footer
             {
                 color: white;
                 text-decoration: none;
+                margin-left:10px;
             }
 
             footer ul li
