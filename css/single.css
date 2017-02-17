@@ -1,0 +1,441 @@
+main
+{
+    padding-bottom: 0;
+}
+
+/*******DATOS DE PAQUETE*********/
+
+#imgTop
+{
+    background: url(../img/home/slider/budapest.jpg) center center;
+    background-size: cover;
+    display: none;
+    height: 400px;
+    width: 100%;
+}
+
+    #datosPaquete hgroup, #datosPaquete .infoPaquete
+    {
+        background: white;
+        padding:8px;
+    }
+        
+        #datosPaquete
+        {
+            align-items: center;
+            display: flex;
+            padding-bottom:20px;
+            width: 100%;
+        }    
+
+            #datosPaquete hgroup
+            {
+                display: inline-block;
+                padding: 12px;
+            }
+
+                #datosPaquete hgroup h1
+                {
+                    color:#bc082f;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 30px;
+                    font-weight: bold;
+                    margin:0;
+                    padding:0;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+
+                #datosPaquete hgroup h2
+                {
+                    font-size: 30px;
+                    margin-bottom:0;
+                }
+
+            #datosPaquete ul
+            {
+                padding:8px;
+            }
+                #datosPaquete ul .fa
+                {
+                    color: #bc082f;
+                    margin-right:10px;
+                }
+
+                #datosPaquete ul li
+                {
+                    border-bottom: 1px solid #d1d1d1;
+                    margin-bottom:5px;
+                    font-style: italic;
+                }
+
+            #datosPaquete .datosprecio
+            {
+                display: flex;
+            }
+
+                #datosPaquete .datosprecio p
+                {
+                    margin:0;
+                    line-height: 12px;
+                }
+
+                #datosPaquete .datosprecio p:nth-child(3)
+                {
+                    align-self: flex-end;
+                }
+
+                #datosPaquete .datosprecio div
+                {
+                    font-weight: bold;
+                    margin-right: 8px;
+                }
+
+                #datosPaquete .datosprecio small
+                {
+                    font-size: 16px;
+                }
+
+                #datosPaquete .datosprecio .numeroGrande
+                {
+                    font-weight: bolder;
+                    font-size: 40px;
+                    line-height: 17px;
+                    margin-right: 2px;
+                }
+
+                #datosPaquete .datosprecio .precio
+                {
+                    align-self: center;
+                    color:#bc082f;
+                    font-size: 30px;
+                    margin-left: 10px;
+                }
+            
+            #datosPaquete .infoPaquete
+            {
+
+                display: block;
+                padding:14px;
+            }
+
+            #datosPaquete .row
+            {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+            }
+/*******END - DATOS DE PAQUETE*********/
+
+/*******INFORMACIÓN PAQUETE*********/
+#porqueLugar
+{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    width: 90%;
+}
+
+    #porqueLugar button
+    {
+        margin-top:20px;
+        margin-bottom:40px;
+        width: 100%;
+    }
+
+    #porqueLugar h1
+    {
+        text-align: left;
+    }
+
+    #porqueLugar p
+    {
+        font-style: italic;
+    }
+
+        #porqueLugar #galeriaLateral img
+        {
+            width: 100%;
+        }
+
+
+/*******END - INFORMACIÓN PAQUETE*********/
+
+/*******SOBRE EL LUGAR*********/
+#sobreLugar img
+{
+    width: 100%;
+}
+
+#sobreLugar h2
+{
+    color:#bc082f;
+    font-size: 43px;
+    margin-bottom:35px; 
+    margin-top:35px;
+}
+
+#sobreLugar p
+{
+    font-size: 16px;
+}
+/*******END - SOBRE EL LUGAR*********/
+
+/*******SERVICIOS ADICIONALES*********/
+#serviciosAdicionales
+{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+    #serviciosAdicionales h3
+    {
+        color: #bc082f;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom:30px;
+    }
+    
+    #serviciosAdicionales p
+    {
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    #serviciosAdicionales span
+    {
+        color:#bc082f;
+        display: block;
+        font-size: 42px;
+        margin-bottom:15px;
+        margin-top: 15px;
+    }
+
+    #serviciosAdicionales div[class^="col"]
+    {
+        border: 1px solid #d1d1d1;
+    }
+
+        #serviciosAdicionales .col:first-child
+        {
+             border-left: 1px solid #d1d1d1;
+        }
+
+/*******END - SERVICIOS ADICIONALES*********/
+
+/*******COTIZAR PROYECTO*********/
+
+#cotizarProyecto
+{
+    margin-bottom:0;
+}
+
+    #cotizarProyecto button
+    {
+        display: block;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        margin:0 auto;
+        margin-bottom: 60px;
+    }
+
+    #cotizarProyecto select
+    {
+        border: 1px solid #0f2749;
+        border-radius:0;
+        background: transparent;
+    }
+
+    #cotizarProyecto #pasos
+    {
+        background: #d5d6d9;
+        border-right: 1px solid #d5d6d9;
+        padding: 50px 0;
+        width: 100%;
+    }
+
+        #cotizarProyecto #pasos h1
+        {
+            font-size: 43px;
+            color:#bc082f;
+        }
+
+        #cotizarProyecto #pasos h3
+        {
+            font-size: 30px;
+            font-weight: bold;
+            color:#bc082f;
+            margin-bottom:40px;
+        }
+            
+        #cotizarProyecto #pasos label
+        {
+            font-weight: bolder;
+        }
+
+        #cotizarProyecto #pasos form
+        {
+            flex-direction: column;
+        }
+    
+    #cotizarProyecto #paso1 input[type="submit"]
+    {
+        margin:0;
+        width:55%;
+    }
+
+    #cotizarProyecto #paso1 .texto
+    {
+        margin-bottom:60px;
+    }
+
+    #cotizarProyecto #paso1 .texto p
+    {
+        width: 100%;
+    }
+
+    #cotizarProyecto .form-group
+    {
+        width: 100%;
+    }
+
+    #cotizarProyecto .input-group
+    {
+        border: 1px solid #0f2749;
+        width: 100%;
+    }
+
+            #cotizarProyecto .input-group input
+            {
+                background: transparent;
+                border:0;
+                border-radius: 0;
+                font-size: 18px;
+                width: 100%;
+            }
+
+            #cotizarProyecto .input-group span
+            {
+                background: transparent;
+                border:0;
+                border-radius: 0;
+            }
+
+#datosPaquete .row
+{
+    flex-direction: row;
+}
+
+/*******END - COTIZAR PROYECTO*********/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){ 
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+    #imgTop
+    {
+        display: block;
+    }
+    
+    #sobreLugar .col-md-6
+    {
+        border-right: 1px solid #d1d1d1;
+    }
+
+    #sobreLugar .col-md-6:last-child
+    {
+        border-right:0;
+    }
+    
+    #datosPaquete
+    {
+        align-items: center;
+        margin-top: -70px;
+        padding-bottom:20px;
+        position: absolute;
+        z-index: 10;
+    }
+    
+    #datosPaquete .infoPaquete
+    {
+        float: right;
+    }
+    
+    #porqueLugar
+    {
+        align-items: center;
+        flex-direction: row;
+        margin:0;
+        margin-top: 130px;
+        width: 100%;
+    }
+    
+        #porqueLugar button
+        {
+            margin-top:20px;
+            width: auto;
+        }
+    
+        #porqueLugar h1
+        {
+            text-align: left;
+        }
+
+        #porqueLugar p
+        {
+            font-style: italic;
+        }
+
+        #porqueLugar #galeriaLateral
+        {
+            width: 50%;
+        }
+
+            #porqueLugar #galeriaLateral img
+            {
+                width: 100%;
+               
+            }
+    
+    #porqueLugar .col-md-7 img
+    {
+        width: 100%;
+    }
+    
+    #porqueLugar .espacio
+    {
+        width: 10%;
+    }
+
+    #porqueLugar .texto
+    {
+        width: 40%;
+        padding-right:30px;
+    }
+    
+    #cotizarProyecto #paso1 .texto p
+    {
+        width: 90%;
+    }
+    
+      #cotizarProyecto #paso1 .texto
+    {
+        margin-top:104px;
+    }
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+     
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+    
+}
