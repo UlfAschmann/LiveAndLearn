@@ -36,6 +36,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cerrar:before {
+  content: "\e906";
+}
+
 .icon-lapiz:before {
   content: "\e905";
 }
