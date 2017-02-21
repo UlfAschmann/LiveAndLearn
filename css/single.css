@@ -368,6 +368,66 @@ main
         text-decoration: line-through;
     }
 
+    #pasos .pasosCirculos
+    {
+        display: flex;
+        width: 90%;
+        margin:0 auto;
+        margin-bottom: 80px;
+        justify-content: space-between;
+    }
+
+        #pasos .pasosCirculos .numero
+        {
+            align-items: center;
+            border: 3px solid #bc082f;
+            border-radius: 50%;
+            display: flex;
+            height: 40px;
+            justify-content: center;
+            position: relative;
+            width: 40px;
+        }
+
+        #pasos .pasosCirculos .numero.active
+        {   
+            border: 0;
+            background: #bc082f;   
+        }
+            #pasos .pasosCirculos .numero p
+            {
+                color: #bc082f;
+                font-size: 30px;
+                margin-top:5px;
+                padding:0;
+            }
+
+                #pasos .pasosCirculos .numero.active p
+                {
+                    color: #d5d6d9;
+                }
+        #pasos .pasosCirculos .flecha
+        {
+            align-items: center;
+            display: flex;
+        }
+
+        #pasos .pasosCirculos .flecha div:first-child
+        {
+            background: #bc082f;
+            height: 3px;
+            width: 40px;
+        }
+
+        #pasos .pasosCirculos .flecha div:last-child
+        {
+             width: 0; 
+             height: 0; 
+             border-left: 10px solid  #bc082f;
+             border-top: 5px solid transparent;
+             border-bottom: 5px solid transparent;
+        }
+
     #cotizarProyecto #paso1 .texto
     {
         margin-bottom:60px;
@@ -449,6 +509,49 @@ main
                 font-weight: bold;
             }
 
+    #cotizarProyecto #gracias
+    {
+        background:#bc082f;
+        color:white;
+        padding-top:30px;
+    }
+
+        #cotizarProyecto #gracias img
+        {
+            display: block;
+            margin:0 auto 20px auto;
+        }
+
+        #cotizarProyecto #gracias h1
+        {
+            color:white;
+            font-size: 54px;
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        #cotizarProyecto #gracias p
+        {
+            font-size: 30px;
+            margin:0 auto;
+            margin-bottom:30px;
+            text-align: center;
+            width: 70%;
+        }
+
+            #cotizarProyecto #gracias #cierreGracias
+            {
+                position: relative;
+            }    
+            
+                #cotizarProyecto #gracias #cierreGracias p
+                {
+                    background: white;
+                    color:#0f2749;
+                    font-style: italic;
+                    width: 100%;
+                }
+
 #datosPaquete .row
 {
     flex-direction: row;
@@ -458,7 +561,10 @@ main
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){ 
-    
+    #pasos .pasosCirculos
+    {
+        width: 70%
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -596,6 +702,25 @@ main
         width: 300px;
     }
     
+    #cotizarProyecto #gracias #cierreGracias
+    {
+         background: url(../img/single/graciasBackground.jpg) center center;
+         background-size: cover;
+         height: 215px;
+    }
+    
+        #cotizarProyecto #gracias #cierreGracias p
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left:auto;
+            margin-right:auto;
+            top:100%;
+            transform: translateY(-300%);
+            
+        }
+    
     #serviciosAdicionales div[class^="col"]
     {
         border-left:0;
@@ -605,11 +730,37 @@ main
     {
         border-left:1px solid #d1d1d1;
     }
+    
+    #pasos .pasosCirculos
+    {
+        width: 60%;
+    }
+    
+        #pasos .pasosCirculos .numero
+        {
+            height: 81px;
+            width: 81px;
+        }
+    
+            #pasos .pasosCirculos .numero p
+            {
+                font-size: 50px;
+            }
+    #pasos .pasosCirculos .flecha div:first-child
+    {
+        width: 65px;
+    }
+
 }
+
+
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px){
-     
+     #pasos .pasosCirculos
+    {
+        width: 40%;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
