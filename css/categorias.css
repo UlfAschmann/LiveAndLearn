@@ -82,6 +82,13 @@ main section:last-child
     width: 80%;
 }
 
+
+#ventajas .row
+{
+    display: flex;
+    flex-direction: column;
+}
+
 /*******END - VENTAJAS*********/
 
 /*******INFORMACIÓN PAQUETE*********/
@@ -170,6 +177,7 @@ main section:last-child
 
         #listaprogramas .item img
         {
+            display: none;
             width: 100%;
         }
 
@@ -302,6 +310,11 @@ main section:last-child
      {
          width: 45%;
      }
+    
+         #listaprogramas .item img
+            {
+                display: block;
+            }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -340,10 +353,20 @@ main section:last-child
             padding:3px;
         }
     
-    #ventajas div
+    #ventajas
     {
-        margin: 0;
+        width: 850px;
     }
+    
+        #ventajas div
+        {
+            margin: 0;
+        }
+
+        #ventajas .row
+        {
+            flex-direction: row;
+        }
     
     #ordenarProgramas p
     {
