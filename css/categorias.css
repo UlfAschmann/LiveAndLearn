@@ -70,10 +70,13 @@ main section:last-child
     margin-bottom:40px;
 }
 
-    #ventajas div img
-    {
-        margin-bottom:20px;
-    }
+        #ventajas div .col-auto
+        {
+            display: flex;
+            width: 80%;
+            align-items: center;
+        }
+        
 
 #ventajas h3
 {
@@ -362,11 +365,26 @@ main section:last-child
         {
             margin: 0;
         }
+    
+            #ventajas div img
+            {
+                margin-bottom:20px;
+            }
+    
+             #ventajas div .col-auto
+            {
+               flex-direction: column;
+                width: auto;
+            }
 
         #ventajas .row
         {
             flex-direction: row;
         }
+    
+   
+
+        
     
     #ordenarProgramas p
     {
