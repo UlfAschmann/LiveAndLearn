@@ -365,9 +365,11 @@
         margin-top:10px;
     }
 
-    #completaExperiencia .col-6
+    #completaExperiencia .col-md-3
     {
-        text-align: center;
+        display: flex;
+        align-items: center;
+        margin:15px 0;
     }
 
 /********END - COMPLETA EXPERIENCA********/
@@ -487,12 +489,15 @@
         background: white;
     }
     
-    #completaExperiencia .col-6
+    #completaExperiencia .col-md-3
     {
         border-right: 1px solid #0f2749;
+        flex-direction: column;
+        margin:0;
+        text-align:center;
     }
     
-        #completaExperiencia .col-6:last-child
+        #completaExperiencia .col-md-3:last-child
         {
              border-right:none;
         }

@@ -56,7 +56,7 @@ main section:last-child
         background: white;
         color: #bc082f;
         font-family: 'Raleway', sans-serif;
-        font-size: 43px;
+        font-size: 30px;
         padding:7px;
         width: 100%;
     }
@@ -330,6 +330,7 @@ main section:last-child
     #tituloPrincipal
     {
         display: inline;
+        font-size: 43px;
         left:0;
         margin-left:auto;
         margin-right:auto;

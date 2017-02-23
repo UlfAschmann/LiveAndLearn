@@ -41,7 +41,7 @@ main
                 {
                     color:#bc082f;
                     font-family: 'Raleway', sans-serif;
-                    font-size: 30px;
+                    font-size: 25px;
                     font-weight: bold;
                     margin:0;
                     padding:0;
@@ -269,13 +269,13 @@ main
 
         #cotizarProyecto #pasos h1
         {
-            font-size: 43px;
+            font-size: 25px;
             color:#bc082f;
         }
 
         #cotizarProyecto #pasos h3
         {
-            font-size: 30px;
+            font-size: 20px;
             font-weight: bold;
             color:#bc082f;
             margin-bottom:40px;
@@ -296,7 +296,6 @@ main
         margin:0;
         width:100%;
         font-size: 18px;
-        
     }
 
     #cotizarProyecto #pasos table
@@ -443,6 +442,11 @@ main
 {
     text-align: center;
     width: 100%;
+}
+
+#cotizarProyecto #pasos h3
+{
+    font-size:30px;
 }
 
 #cotizarProyecto #paso2 h3:last-child
@@ -594,22 +598,27 @@ main
         z-index: 10;
     }
     
-    #datosPaquete hgroup,
-    #datosPaquete .infoPaquete
+    #datosPaquete hgroup h1
     {
-        background: white;
+        font-size: 43px;
     }
+
+        #datosPaquete hgroup,
+        #datosPaquete .infoPaquete
+        {
+            background: white;
+        }
    
     
-    #datosPaquete ul li
-    {
-        border-bottom:1px solid #d1d1d1;
-    }
+        #datosPaquete ul li
+        {
+            border-bottom:1px solid #d1d1d1;
+        }
     
-    #datosPaquete .infoPaquete
-    {
-        float: right;
-    }
+        #datosPaquete .infoPaquete
+        {
+            float: right;
+        }
     
     #porqueLugar
     {
@@ -702,6 +711,8 @@ main
         width: 300px;
     }
     
+
+
     #cotizarProyecto #gracias #cierreGracias
     {
          background: url(../img/single/graciasBackground.jpg) center center;
