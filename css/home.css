@@ -363,6 +363,7 @@
     {
         font-size: 18px;
         margin-top:10px;
+        margin-left:20px;
     }
 
     #completaExperiencia .col-md-3
@@ -566,6 +567,11 @@
     #entradasBlog .item img
     {
         display: block;
+    }
+
+    #completaExperiencia h4
+    {
+        margin-left: 0;
     }
 }
 
