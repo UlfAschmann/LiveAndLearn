@@ -446,7 +446,7 @@ main
 
 #cotizarProyecto #pasos h3
 {
-    font-size:30px;
+    font-size:20px;
 }
 
 #cotizarProyecto #paso2 h3:last-child
@@ -710,8 +710,6 @@ main
     {
         width: 300px;
     }
-    
-
 
     #cotizarProyecto #gracias #cierreGracias
     {
@@ -760,6 +758,11 @@ main
     #pasos .pasosCirculos .flecha div:first-child
     {
         width: 65px;
+    }
+
+    #cotizarProyecto #pasos h3
+    {
+        font-size:30px;
     }
 
 }
