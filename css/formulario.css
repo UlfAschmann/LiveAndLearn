@@ -1,0 +1,165 @@
+
+#formulario hgroup
+{
+    color: #bc082f;
+}
+
+#formulario hgroup h2
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin:0 auto;
+    width: 96%;
+}
+
+#formulario form
+{
+    flex-direction: column;
+    margin-top:40px;
+}
+
+#formulario form h4
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:40px;
+    margin-top:20px;
+    text-align: center;
+}
+
+#formulario form label
+{
+    font-weight: bold;
+}
+
+#formulario form select
+{
+    border: 1px solid #0f2749;
+    width: 100%;
+}
+
+#formulario form div[class^="col-"]
+{
+    margin-bottom:15px;
+}
+
+#formulario form .row,
+#formulario form .row input,
+#formulario form .row label
+{
+    width: 100%;
+}
+
+#formulario form input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+}
+
+#formulario form .check
+{
+    width: 70%;
+    margin:0 auto;
+}
+
+#formulario form .fechaNacimiento div
+{
+    align-content:flex-end;
+}
+
+#formulario form .check label,
+#formulario form .terminos label
+{
+    margin:0;
+    margin-left:25px;
+    padding:0;
+    width: auto;
+    font-weight: normal;
+}
+
+#formulario form .check div
+{
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+}
+
+    #formulario form .check div[class^="col-"]
+    {
+        margin-bottom:15px;
+    }
+
+#formulario form .row
+{
+    margin-left:0;
+    margin-right:0;
+}
+
+#formulario form .row.check
+{
+    margin: 0 auto;
+}
+
+#formulario form .terminos
+{
+    margin-bottom:60px;
+    margin-top:60px;
+    font-style: italic;
+}
+
+#formulario form .terminos a
+{
+    color:#0f2749;
+    text-decoration: underline;
+}
+
+#formulario form .terminos .col
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+   #formulario form .check
+   {
+       width: 90%;
+   }
+
+    #formulario form input[type="submit"]
+    {
+        margin:0 auto;
+        width: 30%;
+    }
+
+    #formulario form h4
+    {
+        text-align: left;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    #formulario form .check
+    {
+       width: 70%;
+    }
+
+    #formulario form input[type="submit"]
+    {
+        margin:0 auto;
+        width: 15%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+}
