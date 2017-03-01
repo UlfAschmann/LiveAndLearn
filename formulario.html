@@ -94,11 +94,13 @@
 				   <div class="row">
 					    <div class="col-md-6">
                               <label for="">Nombre</label>
-                              <input type="text">
+                              <input type="text" class="error">
+                              <p class="validator">Este campo es requerido</p>
 					    </div>
 					    <div class="col-md-6">
 					          <label for="">Apellido</label>
                               <input type="text">
+                              <p class="validator">Este campo es requerido</p>
 					    </div>
 					</div>
 
@@ -106,24 +108,28 @@
                         <div class="col-md-6">
                               <label for="">Correo electrónico</label>
                               <input type="text">
+                              <p class="validator">Este campo es requerido</p>
+                              <p class="validator">El formato del correo es incorrecto</p>
 					    </div>
 					    <div class="col-md-3">
 					          <label for="">Género</label>
                               <select name="" id="">
                                    <option value="0">
-                                       Ingresa la edad del estudiante
+
                                    </option>
                                    <option value="1">
-                                       1
+                                       Masculino
                                    </option>
                                    <option value="2">
-                                       2
+                                       Femenino
                                    </option>
                                </select>
+                               <p class="validator">Debe de seleccionar una opción</p>
 					    </div>
                         <div class="col-md-3">
 					          <label for="">Estado</label>
                               <input type="text">
+                              <p class="validator">Este campo es requerido</p>
 					    </div>
                    </div>
 
@@ -141,6 +147,7 @@
                                        2
                                    </option>
                              </select>
+                             <p class="validator">Debe de seleccionar un día</p>
 					    </div>
 					    <div class="col-md-4 align-self-end">
                               <select name="" id="">
@@ -154,6 +161,7 @@
                                        2
                                    </option>
                              </select>
+                             <p class="validator">Debe de seleccionar un mes</p>
 					    </div>
                         <div class="col-md-4 align-self-end">
                               <select name="" id="">
@@ -167,6 +175,7 @@
                                        2
                                    </option>
                               </select>
+                              <p class="validator">Debe de seleccionar año</p>
 					    </div>
                    </div>
                    <div class="row">
@@ -210,6 +219,10 @@
                             <input type="checkbox">
                             <label for="">Acepto <a href="#">términos y condiciones</a></label>
                        </div>
+                   </div>
+
+                   <div class="row">
+                       <p class="validator text-center">Debe de aceptar los términos y condiciones</p>
                    </div>
 
                    <div class="row">

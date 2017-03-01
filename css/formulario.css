@@ -44,38 +44,26 @@
     margin-bottom:15px;
 }
 
-#formulario form .row,
-#formulario form .row input,
-#formulario form .row label
-{
-    width: 100%;
-}
-
-#formulario form input[type="checkbox"]
+#formulario form .row input[type="checkbox"]
 {
     width: 20px;
     height: 20px;
 }
 
-#formulario form .check
-{
-    width: 70%;
-    margin:0 auto;
-}
-
-#formulario form .fechaNacimiento div
-{
-    align-content:flex-end;
-}
-
-#formulario form .check label,
-#formulario form .terminos label
+#formulario form .row.check label,
+#formulario form .row.terminos label
 {
     margin:0;
     margin-left:25px;
     padding:0;
     width: auto;
     font-weight: normal;
+}
+
+#formulario form .check
+{
+    width: 70%;
+    margin:0 auto;
 }
 
 #formulario form .check div
@@ -91,6 +79,32 @@
         margin-bottom:15px;
     }
 
+#formulario form .error
+{
+    border-color:#bc082f;
+}
+
+
+#formulario form .fechaNacimiento div
+{
+    align-content:flex-end;
+}
+
+
+#formulario form .row,
+#formulario form .row input,
+#formulario form .row label
+{
+    width: 100%;
+}
+
+#formulario .validator
+{
+    color: #bc082f;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 #formulario form .row
 {
     margin-left:0;
@@ -104,7 +118,7 @@
 
 #formulario form .terminos
 {
-    margin-bottom:60px;
+    margin-bottom:10px;
     margin-top:60px;
     font-style: italic;
 }
@@ -113,6 +127,11 @@
 {
     color:#0f2749;
     text-decoration: underline;
+}
+
+#formulario form .validator.text-center
+{
+   width: 100%;
 }
 
 #formulario form .terminos .col
