@@ -1,0 +1,425 @@
+h1
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+h1 strong
+{
+    text-transform: uppercase;
+}
+
+h1 .fa
+{
+    display: none;
+    margin-right:15px;
+}
+
+main section
+{
+    padding-bottom:0;
+}
+
+
+/*******ENCUENTRA PROGRAMA*********/
+
+#encuentraPrograma button
+{
+    background:#0f2749;
+    color:white;
+    margin-bottom:10px;
+    padding-bottom:7px;
+    padding-top:7px;
+    width: 100%;
+}
+
+#encuentraPrograma h1
+{
+    color: #bc082f;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+#encuentraPrograma form
+{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom:50px;
+}
+
+    #encuentraPrograma form select
+    {
+        margin-bottom:10px;
+    }
+
+    #encuentraPrograma form input[type="submit"]
+    {
+        margin-left:0;
+    }
+
+/*******END - ENCUENTRA PROGRAMA*********/
+
+/*******LISTA PROGRAMAS*********/
+
+#listaprogramas
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom:0;
+    padding-top:0;
+}
+
+    #listaprogramas .item
+    {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+        #listaprogramas .item img
+        {
+            display: none;
+            width: 100%;
+        }
+
+        #listaprogramas .item h3
+        {
+             background: #d1d1d1;
+             color:#0f2749;
+             font-weight: bold;
+             font-size: 14px;
+             margin-bottom:0;
+             padding:12px;
+             text-transform: uppercase;
+        }
+
+    #listaprogramas .infoPromocion
+        {
+            border:1px solid #e2e2e2;
+            background: white;
+            padding:15px 0;
+        }
+
+            #listaprogramas .infoPromocion button
+            {
+                width: 94%;
+                display: block;
+                margin: 15px auto 0 auto;
+            }
+
+            #listaprogramas .infoPromocion h4
+            {
+                color:#bc082f;
+                font-size: 18px;
+                font-weight: bold;
+                padding:0 10px;
+            }
+
+            #listaprogramas .infoPromocion li
+            {
+                border-bottom: 1px solid #e2e2e2;
+                padding:3px 10px;
+            }
+
+            #listaprogramas .infoPromocion p
+            {
+                font-style: italic;
+                font-size: 12px;
+                padding: 10px;
+            }
+
+            #listaprogramas .infoPromocion .fa
+            {
+                color:#bc082f;
+                margin-right:10px;
+            }
+
+    #listaprogramas #infoFinal
+    {
+        margin-top:16px;
+    }
+
+        #listaprogramas #infoFinal p
+        {
+            font-style: normal;
+            margin:0;
+            padding-bottom: 0;
+            padding-top:0;
+        }
+
+        #listaprogramas #infoFinal #infoDuracion
+        {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        #listaprogramas #infoFinal #infoPrecio
+        {
+            color:#bc082f;
+            font-size: 18px;
+        }
+
+/****************END -  LISTA PROGRAMAS************************/
+
+#entradasBlog .item
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+        #entradasBlog .item img
+        {
+            display: none;
+            width: 100%;
+        }
+
+        #entradasBlog .item h3
+        {
+             background: #d1d1d1;
+             color:#0f2749;
+             font-weight: bold;
+             font-size: 14px;
+             margin-bottom:0;
+             padding:12px;
+             text-transform: uppercase;
+        }
+
+    #entradasBlog .infoPromocion
+        {
+            border:1px solid #e2e2e2;
+            background: white;
+            padding:15px 0;
+        }
+
+            #entradasBlog .infoPromocion button
+            {
+                width: 94%;
+                display: block;
+                margin: 0 auto;
+                margin-top:4px;
+            }
+
+            #entradasBlog .infoPromocion h4
+            {
+                color:#bc082f;
+                font-size: 18px;
+                font-weight: bold;
+                padding:0 10px;
+            }
+
+            #entradasBlog .infoPromocion li
+            {
+                border-bottom: 1px solid #e2e2e2;
+                padding: 1px 10px;
+            }
+
+            #entradasBlog .infoPromocion li:last-child
+            {
+                border-bottom: none;
+            }
+
+            #entradasBlog .infoPromocion p
+            {
+                font-style: italic;
+                font-size: 12px;
+                padding: 10px;
+            }
+
+            #entradasBlog .infoPromocion .fa
+            {
+                color:#bc082f;
+                margin-right:10px;
+            }
+
+    #entradasBlog #infoFinal
+    {
+        margin-top:16px;
+    }
+
+        #entradasBlog #infoFinal p
+        {
+            font-style: normal;
+            margin:0;
+            padding-bottom: 0;
+            padding-top:0;
+        }
+
+        #entradasBlog #infoFinal #infoDuracion
+        {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        #entradasBlog #infoFinal #infoPrecio
+        {
+            color:#bc082f;
+            font-size: 18px;
+        }
+
+#entradasBlog h1
+{
+    color:#D1D1D1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#ordenarProgramas
+{
+    margin-top:35px;
+    padding:0;
+    width: 100%;
+}
+
+    #ordenarProgramas p
+    {
+        text-align:center;
+    }
+
+    #ordenarProgramas span
+    {
+        color:#102749;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    #ordenarProgramas span.active
+    {
+        color:#bc082f;
+    }
+
+.paginacion
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+    .paginacion div
+    {
+        border:1px solid #0f2749;
+        cursor: pointer;
+        height: 35px;
+        margin-left:6px;
+        margin-right:6px;
+        text-align: center;
+        transition: all .5s ease;
+        width: 35px;
+    }
+
+    .paginacion div:hover
+    {
+        opacity: .5
+    }
+
+        .paginacion div.actual
+        {
+            border:1px solid #bc082f;
+        }
+
+            .paginacion div.actual p
+            {
+                color:#bc082f;
+            }
+
+        .paginacion div p
+        {
+            color:#0f2749;
+            margin:0;
+            padding:0;
+            font-size: 18px;
+            height: 35px;
+            width: 35px;
+        }
+
+/*******END - LISTA PROGRAMAS*********/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+         h1 .fa
+         {
+            display: inline;
+            font-size: 40px;
+         }
+
+         #listaprogramas .item
+         {
+             width: 45%;
+         }
+
+             #listaprogramas .item img
+             {
+                 display: block;
+             }
+
+
+         /************/
+
+         #entradasBlog .item img
+            {
+                display: block;
+            }
+
+        #entradasBlog .col-sm-2
+        {
+            flex:0 1 auto;
+            width: 50%;
+            max-width: 50%;
+        }
+
+         #entradasBlog h1
+        {
+            font-size: 30px;
+        }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+        #entradasBlog .col-sm-2
+        {
+            flex:0 1 auto;
+            max-width: 25%;
+            width: 25%;
+            align-items: stretch;
+            align-content: stretch;
+        }
+
+        #listaprogramas h1 .fa
+        {
+            font-size: 50px;
+        }
+
+        #ordenarProgramas
+        {
+            margin-top:0;
+        }
+
+        #ordenarProgramas p
+        {
+
+            text-align:right;
+        }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+     #listaprogramas .item
+     {
+         width: 220px;
+     }
+}
