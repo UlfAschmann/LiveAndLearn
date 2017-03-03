@@ -172,7 +172,7 @@ main section
 
         #entradasBlog .item img
         {
-            display: none;
+            display: block;
             width: 100%;
         }
 
