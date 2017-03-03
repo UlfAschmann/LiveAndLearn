@@ -19,8 +19,6 @@ main section
 {
     padding-bottom:0;
 }
-
-
 /*******ENCUENTRA PROGRAMA*********/
 
 #encuentraPrograma button
@@ -70,195 +68,10 @@ main section
     padding-top:0;
 }
 
-    #listaprogramas .item
-    {
-        margin-bottom: 20px;
-        width: 100%;
-    }
-
-        #listaprogramas .item img
-        {
-            display: none;
-            width: 100%;
-        }
-
-        #listaprogramas .item h3
-        {
-             background: #d1d1d1;
-             color:#0f2749;
-             font-weight: bold;
-             font-size: 14px;
-             margin-bottom:0;
-             padding:12px;
-             text-transform: uppercase;
-        }
-
-    #listaprogramas .infoPromocion
-        {
-            border:1px solid #e2e2e2;
-            background: white;
-            padding:15px 0;
-        }
-
-            #listaprogramas .infoPromocion button
-            {
-                width: 94%;
-                display: block;
-                margin: 15px auto 0 auto;
-            }
-
-            #listaprogramas .infoPromocion h4
-            {
-                color:#bc082f;
-                font-size: 18px;
-                font-weight: bold;
-                padding:0 10px;
-            }
-
-            #listaprogramas .infoPromocion li
-            {
-                border-bottom: 1px solid #e2e2e2;
-                padding:3px 10px;
-            }
-
-            #listaprogramas .infoPromocion p
-            {
-                font-style: italic;
-                font-size: 12px;
-                padding: 10px;
-            }
-
-            #listaprogramas .infoPromocion .fa
-            {
-                color:#bc082f;
-                margin-right:10px;
-            }
-
-    #listaprogramas #infoFinal
-    {
-        margin-top:16px;
-    }
-
-        #listaprogramas #infoFinal p
-        {
-            font-style: normal;
-            margin:0;
-            padding-bottom: 0;
-            padding-top:0;
-        }
-
-        #listaprogramas #infoFinal #infoDuracion
-        {
-            text-transform: uppercase;
-            font-weight: bold;
-            font-size: 12px;
-        }
-
-        #listaprogramas #infoFinal #infoPrecio
-        {
-            color:#bc082f;
-            font-size: 18px;
-        }
-
 /****************END -  LISTA PROGRAMAS************************/
 
-#entradasBlog .item
-{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    width: 100%;
-}
 
-        #entradasBlog .item img
-        {
-            display: block;
-            width: 100%;
-        }
-
-        #entradasBlog .item h3
-        {
-             background: #d1d1d1;
-             color:#0f2749;
-             font-weight: bold;
-             font-size: 14px;
-             margin-bottom:0;
-             padding:12px;
-             text-transform: uppercase;
-        }
-
-    #entradasBlog .infoPromocion
-        {
-            border:1px solid #e2e2e2;
-            background: white;
-            padding:15px 0;
-        }
-
-            #entradasBlog .infoPromocion button
-            {
-                width: 94%;
-                display: block;
-                margin: 0 auto;
-                margin-top:4px;
-            }
-
-            #entradasBlog .infoPromocion h4
-            {
-                color:#bc082f;
-                font-size: 18px;
-                font-weight: bold;
-                padding:0 10px;
-            }
-
-            #entradasBlog .infoPromocion li
-            {
-                border-bottom: 1px solid #e2e2e2;
-                padding: 1px 10px;
-            }
-
-            #entradasBlog .infoPromocion li:last-child
-            {
-                border-bottom: none;
-            }
-
-            #entradasBlog .infoPromocion p
-            {
-                font-style: italic;
-                font-size: 12px;
-                padding: 10px;
-            }
-
-            #entradasBlog .infoPromocion .fa
-            {
-                color:#bc082f;
-                margin-right:10px;
-            }
-
-    #entradasBlog #infoFinal
-    {
-        margin-top:16px;
-    }
-
-        #entradasBlog #infoFinal p
-        {
-            font-style: normal;
-            margin:0;
-            padding-bottom: 0;
-            padding-top:0;
-        }
-
-        #entradasBlog #infoFinal #infoDuracion
-        {
-            text-transform: uppercase;
-            font-weight: bold;
-            font-size: 12px;
-        }
-
-        #entradasBlog #infoFinal #infoPrecio
-        {
-            color:#bc082f;
-            font-size: 18px;
-        }
+/****************ENTRADAS BLOG************************/
 
 #entradasBlog h1
 {
@@ -268,6 +81,13 @@ main section
     text-align: left;
     text-transform: uppercase;
 }
+
+ #entradasBlog .item img
+{
+    display: block;
+}
+
+/****************ENTRADAS BLOG************************/
 
 #ordenarProgramas
 {
@@ -293,51 +113,7 @@ main section
         color:#bc082f;
     }
 
-.paginacion
-{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding:0;
-    margin:0;
-}
 
-    .paginacion div
-    {
-        border:1px solid #0f2749;
-        cursor: pointer;
-        height: 35px;
-        margin-left:6px;
-        margin-right:6px;
-        text-align: center;
-        transition: all .5s ease;
-        width: 35px;
-    }
-
-    .paginacion div:hover
-    {
-        opacity: .5
-    }
-
-        .paginacion div.actual
-        {
-            border:1px solid #bc082f;
-        }
-
-            .paginacion div.actual p
-            {
-                color:#bc082f;
-            }
-
-        .paginacion div p
-        {
-            color:#0f2749;
-            margin:0;
-            padding:0;
-            font-size: 18px;
-            height: 35px;
-            width: 35px;
-        }
 
 /*******END - LISTA PROGRAMAS*********/
 
@@ -355,18 +131,10 @@ main section
              width: 45%;
          }
 
-             #listaprogramas .item img
-             {
-                 display: block;
-             }
-
-
-         /************/
-
-         #entradasBlog .item img
-            {
-                display: block;
-            }
+        #entradasBlog h1
+        {
+            font-size: 30px;
+        }
 
         #entradasBlog .col-sm-2
         {
@@ -374,12 +142,6 @@ main section
             width: 50%;
             max-width: 50%;
         }
-
-         #entradasBlog h1
-        {
-            font-size: 30px;
-        }
-
 }
 
 /* Medium devices (tablets, 768px and up)*/

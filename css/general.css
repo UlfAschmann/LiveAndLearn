@@ -87,9 +87,6 @@ ul
     margin:0;
     padding:0;
 }
-
-
-
 /*******END - GENERALES********/
 
 /*****HEADER PRINCIPAL******/
@@ -194,7 +191,6 @@ header .redesSociales a
 /*****>END - HEADER PRINCIPAL******/
 
 /******NAV********/
-
 nav #menuPrincipal
 {
     background: #0f2749;
@@ -247,6 +243,36 @@ nav .toogle
 }
 /******END - NAV********/
 
+/******NAV SECUNDARIO********/
+nav#navSecundario
+{
+    background: #d1d1d1;
+}
+
+    nav#navSecundario a
+    {
+        color:#0f2749;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    nav#navSecundario ul
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:0;
+        padding:0;
+        list-style: none;
+        margin:0 auto;
+        max-width: 1100px;
+    }
+
+        nav#navSecundario ul li
+        {
+            padding:8px 5px
+        }
+/******END NAV SECUNDARIO********/
 
 /******MAIN******/
 main
@@ -268,8 +294,6 @@ main
     {
         padding-bottom:0;
     }
-
-
 /******END MAIN******/
 
 /*******FOOTER********/
@@ -356,6 +380,157 @@ footer
     }
 /*******END FOOTER********/
 
+
+/*****WIDGETS******/
+
+#imgTop
+{
+    background-position: center center;
+    background-size: cover;
+    display: none;
+    margin-bottom:90px;
+    height: 400px;
+    width: 100%;
+}
+
+.item
+{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+    .item img
+    {
+        display: none;
+        width: 100%;
+    }
+
+    .item h3
+    {
+        background: #d1d1d1;
+        color:#0f2749;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom:0;
+        padding:12px;
+        text-transform: uppercase;
+    }
+
+    .item .infoPromocion
+    {
+        border:1px solid #e2e2e2;
+        background: white;
+        padding:15px 0;
+    }
+
+        .item .infoPromocion button
+        {
+            width: 94%;
+            display: block;
+            margin: 15px auto 0 auto;
+        }
+
+        .item .infoPromocion h4
+        {
+            color:#bc082f;
+            font-size: 18px;
+            font-weight: bold;
+            padding:0 10px;
+        }
+
+        .item .infoPromocion li
+        {
+            border-bottom: 1px solid #e2e2e2;
+            padding:3px 10px;
+        }
+
+        .item .infoPromocion p
+        {
+            font-style: italic;
+            font-size: 12px;
+            padding: 10px;
+        }
+
+        .item .infoPromocion .fa
+        {
+            color:#bc082f;
+            margin-right:10px;
+        }
+
+    .item .infoFinal
+    {
+        margin-top:16px;
+    }
+
+        .item .infoFinal p
+        {
+            font-style: normal;
+            margin:0;
+            padding-bottom: 0;
+            padding-top:0;
+        }
+
+        .item .infoFinal .infoDuracion
+        {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .item .infoFinal .infoPrecio
+        {
+            color:#bc082f;
+            font-size: 18px;
+        }
+
+.paginacion
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+    .paginacion div
+    {
+        border:1px solid #0f2749;
+        cursor: pointer;
+        height: 35px;
+        margin-left:6px;
+        margin-right:6px;
+        text-align: center;
+        transition: all .5s ease;
+        width: 35px;
+    }
+
+    .paginacion div:hover
+    {
+        opacity: .5
+    }
+
+        .paginacion div.actual
+        {
+            border:1px solid #bc082f;
+        }
+
+            .paginacion div.actual p
+            {
+                color:#bc082f;
+            }
+
+        .paginacion div p
+        {
+            color:#0f2749;
+            margin:0;
+            padding:0;
+            font-size: 18px;
+            height: 35px;
+            width: 35px;
+        }
+
+/*******END - WIDGETS********/
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){ 
     
@@ -403,7 +578,6 @@ footer
     /*****>HEADER PRINCIPAL******/
     
     /******NAV********/
-    
     nav #menuPrincipal{
         display: block;
     }
@@ -433,6 +607,24 @@ footer
     }
     /******END - NAV********/
     
+    /******NAV SECUNDARIO********/
+    nav#navSecundario a
+    {
+        font-size: 12px;
+    }
+
+    nav#navSecundario ul
+    {
+        flex-direction: row;
+    }
+
+        nav#navSecundario ul li
+        {
+            text-align: center;
+            padding:3px;
+        }
+    /******END NAV SECUNDARIO********/
+
     /******FOOTER********/
     footer .newsletter,
     footer .programas
@@ -476,6 +668,19 @@ footer
         padding-top:140px;
     }
     /******END - MAIN******/
+
+    /******WIDGETS******/
+    #imgTop
+    {
+        display: block;
+    }
+
+    .item img
+     {
+         display: block;
+     }
+    /******END - WIDGETS******/
+
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -510,8 +715,6 @@ footer
     {
         width: 30%;
     }
-    
-   
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/

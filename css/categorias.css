@@ -8,48 +8,7 @@ main section:last-child
     padding-bottom:70px;
 }
 
-/*******NAVEGACIÓN CAMPAMENTOS*********/
-#navCampamentos
-{
-    background: #d1d1d1;
-}
-
-    #navCampamentos a
-    {
-        color:#0f2749;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    #navCampamentos ul
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin:0;
-        padding:0; 
-        list-style: none;
-        margin:0 auto;
-        max-width: 1100px;
-    }
-
-        #navCampamentos ul li
-        {
-            padding:8px 5px
-        }
-/*******END - NAVEGACIÓN CAMPAMENTOS*********/
-
-
 /*******IMAGEN SUPERIOR*********/
-#imgTop
-{
-    background: url(../img/home/slider/budapest.jpg) center center;
-    background-size: cover;
-    display: none;
-    margin-bottom:90px;
-    height: 400px;
-    width: 100%;
-}
 
     #tituloPrincipal
     {
@@ -103,7 +62,6 @@ main section:last-child
 /*******END - INFORMACIÓN PAQUETE*********/
 
 /*******ENCUENTRA PROGRAMA*********/
-
 #encuentraPrograma button
 {
     background:#0f2749;
@@ -172,139 +130,6 @@ main section:last-child
     padding-top:0; 
 }
 
-    #listaprogramas .item
-    {
-        margin-bottom: 20px;
-        width: 100%;
-    }
-
-        #listaprogramas .item img
-        {
-            display: none;
-            width: 100%;
-        }
-
-        #listaprogramas .item h3
-        {
-             background: #d1d1d1;
-             color:#0f2749;
-             font-weight: bold;
-             font-size: 14px;
-             margin-bottom:0;
-             padding:12px;
-             text-transform: uppercase;
-        }
-
-    #listaprogramas .infoPromocion
-        {
-            border:1px solid #e2e2e2;
-            background: white;
-            padding:15px 0;
-        }
-
-            #listaprogramas .infoPromocion button
-            {
-                width: 94%;
-                display: block;
-                margin: 15px auto 0 auto;
-            }
-
-            #listaprogramas .infoPromocion h4
-            {
-                color:#bc082f;
-                font-size: 18px;
-                font-weight: bold;
-                padding:0 10px;
-            }
-
-            #listaprogramas .infoPromocion li
-            {
-                border-bottom: 1px solid #e2e2e2;
-                padding:3px 10px;
-            }
-
-            #listaprogramas .infoPromocion p
-            {
-                font-style: italic;
-                font-size: 12px;
-                padding: 10px;
-            }
-
-            #listaprogramas .infoPromocion .fa
-            {
-                color:#bc082f;
-                margin-right:10px;
-            }
-
-    #listaprogramas #infoFinal
-    {
-        margin-top:16px;
-    }
-
-        #listaprogramas #infoFinal p
-        {
-            font-style: normal;
-            margin:0;
-            padding-bottom: 0;
-            padding-top:0;
-        }
-
-        #listaprogramas #infoFinal #infoDuracion
-        {
-            text-transform: uppercase;
-            font-weight: bold;
-            font-size: 12px;
-        }
-
-        #listaprogramas #infoFinal #infoPrecio
-        {
-            color:#bc082f;
-            font-size: 18px;
-        }
-
-#paginacion
-{
-    display: flex;
-    justify-content: flex-end;
-}
-
-    #paginacion div
-    {
-        border:1px solid #0f2749;
-        cursor: pointer;
-        height: 35px;
-        margin-left:6px;
-        margin-right:6px;
-        text-align: center;
-        transition: all .5s ease;
-        width: 35px; 
-    }
-
-    #paginacion div:hover
-    {
-        opacity: .5
-    }
-
-        #paginacion div.actual
-        {
-            border:1px solid #bc082f;
-        }
-
-            #paginacion div.actual p
-            {
-                color:#bc082f;
-            }
-
-        #paginacion div p
-        {
-            color:#0f2749;
-            margin:0;
-            padding:0;
-            font-size: 18px;
-            height: 35px;
-            width: 35px;
-        }
-
 /*******END - LISTA PROGRAMAS*********/
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -313,19 +138,10 @@ main section:last-child
      {
          width: 45%;
      }
-    
-         #listaprogramas .item img
-            {
-                display: block;
-            }
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px){
-    #imgTop
-    {
-        display: block;
-    }
     
     #tituloPrincipal
     {
@@ -340,23 +156,7 @@ main section:last-child
         transform: translateY(-250%);
         width: 400px;
     }
-    
-    #navCampamentos a
-    {
-        font-size: 12px;
-    }
-    
-    #navCampamentos ul
-    {
-        flex-direction: row;
-    }
-        
-        #navCampamentos ul li
-        {
-            text-align: center;
-            padding:3px;
-        }
-    
+
     #ventajas
     {
         width: 850px;
@@ -382,11 +182,7 @@ main section:last-child
         {
             flex-direction: row;
         }
-    
-   
 
-        
-    
     #ordenarProgramas p
     {
         text-align:right;

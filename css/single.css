@@ -5,15 +5,6 @@ main
 
 /*******DATOS DE PAQUETE*********/
 
-#imgTop
-{
-    background: url(../img/home/slider/budapest.jpg) center center;
-    background-size: cover;
-    display: none;
-    height: 400px;
-    width: 100%;
-}
-
     #datosPaquete hgroup, #datosPaquete .infoPaquete
     {
         background: white;
@@ -573,9 +564,10 @@ main
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px){
+
     #imgTop
     {
-        display: block;
+        margin-bottom: 0;
     }
     
     #sobreLugar .col-md-6
