@@ -89,31 +89,6 @@ main section
 
 /****************ENTRADAS BLOG************************/
 
-#ordenarProgramas
-{
-    margin-top:35px;
-    padding:0;
-    width: 100%;
-}
-
-    #ordenarProgramas p
-    {
-        text-align:center;
-    }
-
-    #ordenarProgramas span
-    {
-        color:#102749;
-        cursor: pointer;
-        text-decoration: underline;
-    }
-
-    #ordenarProgramas span.active
-    {
-        color:#bc082f;
-    }
-
-
 
 /*******END - LISTA PROGRAMAS*********/
 
@@ -161,16 +136,6 @@ main section
             font-size: 50px;
         }
 
-        #ordenarProgramas
-        {
-            margin-top:0;
-        }
-
-        #ordenarProgramas p
-        {
-
-            text-align:right;
-        }
 }
 
 /* Large devices (desktops, 992px and up)*/

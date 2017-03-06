@@ -42,7 +42,7 @@ main
 
                 #datosPaquete hgroup h2
                 {
-                    font-size: 30px;
+                    font-size: 25px;
                     margin-bottom:0;
                 }
 
@@ -570,6 +570,11 @@ main
         margin-bottom: 0;
     }
     
+    .breadcrumb-section
+    {
+        margin-top:80px;
+    }
+
     #sobreLugar .col-md-6
     {
         border-right: 1px solid #d1d1d1;
@@ -592,7 +597,7 @@ main
     
     #datosPaquete hgroup h1
     {
-        font-size: 43px;
+        font-size: 30px;
     }
 
         #datosPaquete hgroup,
@@ -617,7 +622,6 @@ main
         align-items: center;
         flex-direction: row;
         margin:0;
-        margin-top: 130px;
         width: 100%;
     }
     

@@ -153,7 +153,7 @@ header .telefonos
     display: flex;
 }
 
-    header .telefonos button
+    header .telefonos button: ;
     {
         cursor: pointer;
         font-size: 11px;
@@ -388,10 +388,45 @@ footer
     background-position: center center;
     background-size: cover;
     display: none;
-    margin-bottom:90px;
+    margin-bottom:25px;
     height: 400px;
     width: 100%;
 }
+
+.breadcrumb
+{
+    margin:0;
+    padding:10px 0;
+}
+
+.breadcrumb-section
+{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 35px;
+}
+
+.breadcrumb-section .breadcrumb
+{
+    background-color:transparent;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+    .breadcrumb-section .breadcrumb a
+    {
+        color:#0f2749;
+        text-decoration: underline;
+    }
+
+    .breadcrumb-section .breadcrumb-item+.breadcrumb-item::before
+    {
+        content:">";
+    }
+
+    .breadcrumb-section .breadcrumb-item.active
+    {
+        color:#0f2749;
+    }
 
 .item
 {
@@ -528,6 +563,31 @@ footer
             height: 35px;
             width: 35px;
         }
+
+.ordenarProgramas
+{
+    margin-top:35px;
+    padding:0;
+    width: 100%;
+}
+
+    .ordenarProgramas p
+    {
+        text-align:center;
+    }
+
+    .ordenarProgramas span
+    {
+        color:#102749;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .ordenarProgramas span.active
+    {
+        color:#bc082f;
+    }
+
 
 /*******END - WIDGETS********/
 
@@ -679,6 +739,17 @@ footer
      {
          display: block;
      }
+
+    .ordenarProgramas
+        {
+            margin-top:0;
+        }
+
+        .ordenarProgramas p
+        {
+
+            text-align:right;
+        }
     /******END - WIDGETS******/
 
 }

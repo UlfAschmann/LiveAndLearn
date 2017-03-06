@@ -96,28 +96,7 @@ main section:last-child
         margin-left:0;
     }
 
-#ordenarProgramas
-{
-    padding:0;
-    width: 100%;
-}
 
-    #ordenarProgramas p
-    {
-        text-align:center;
-    }
-
-    #ordenarProgramas span
-    {
-        color:#102749;
-        cursor: pointer;
-        text-decoration: underline;
-    }
-
-    #ordenarProgramas span.active
-    {
-        color:#bc082f;
-    }
 /*******END - ENCUENTRA PROGRAMA*********/
 
 /*******LISTA PROGRAMAS*********/
@@ -143,6 +122,7 @@ main section:last-child
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px){
     
+
     #tituloPrincipal
     {
         display: inline;
@@ -153,7 +133,7 @@ main section:last-child
         padding:0 7px;
         position: absolute;
         right: 0;
-        transform: translateY(-250%);
+        transform: translateY(-100%);
         width: 400px;
     }
 
@@ -183,10 +163,6 @@ main section:last-child
             flex-direction: row;
         }
 
-    #ordenarProgramas p
-    {
-        text-align:right;
-    }
 
 }
 
