@@ -1,0 +1,304 @@
+main
+{
+    padding-bottom: 0;
+}
+
+main section:last-child
+{
+    padding-bottom:70px;
+}
+
+
+        #buscarPaquete
+        {
+            align-items: center;
+            border-top:1px solid #bc082f;
+            background: #d1d1d1;
+            display: flex;
+            padding-bottom:30px;
+            width: 100%;
+        }
+
+            #buscarPaquete form
+            {
+                flex-direction: column;
+            }
+
+            #buscarPaquete form select,
+            #buscarPaquete form input[type="submit"]
+            {
+                margin:10px
+            }
+
+            #buscarPaquete hgroup
+            {
+                background: #d1d1d1;
+                display: inline-block;
+                padding: 12px;
+                text-align: center;
+                width: 100%;
+            }
+
+                #buscarPaquete hgroup h1
+                {
+                    color:#bc082f;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 25px;
+                    font-weight: bold;
+                    margin:0;
+                    padding:0;
+                    text-transform: uppercase;
+                }
+
+                #buscarPaquete hgroup h2
+                {
+                    font-size: 25px;
+                    margin-bottom:0;
+                }
+
+            #buscarPaquete h3
+            {
+                font-size: 18px;
+                margin-bottom:25px;
+                text-align: center;
+            }
+
+            #buscarPaquete ul
+            {
+                padding:8px;
+            }
+                #buscarPaquete ul .fa
+                {
+                    color: #bc082f;
+                    margin-right:10px;
+                }
+
+                #buscarPaquete ul li
+                {
+                    border-bottom: 1px solid #0f2749;
+                    margin-bottom:5px;
+                    font-style: italic;
+                }
+
+            #buscarPaquete .datosprecio
+            {
+                display: flex;
+            }
+
+            #buscarPaquete .infoPaquete
+            {
+                background: #d1d1d1;
+                display: block;
+                padding:14px;
+            }
+
+            #buscarPaquete .row
+            {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+            }
+/*******END - DATOS DE PAQUETE*********/
+
+#etiquetas
+{
+    border-bottom:1px solid #aaa;
+    border-top:1px solid #aaa;
+    margin-bottom:130px;
+    padding-bottom:30px;
+    padding-top:20px;
+}
+
+#etiquetas .labelcontainer
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin:0 auto;
+}
+
+#etiquetas h2
+{
+    color:#BC082F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+
+/*******ENCUENTRA PROGRAMA*********/
+
+#encuentraPrograma button
+{
+    background:#0f2749;
+    color:white;
+    margin-bottom:10px;
+    padding-bottom:7px;
+    padding-top:7px;
+    width: 100%;
+}
+
+#encuentraPrograma h1
+{
+    color: #bc082f;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+#encuentraPrograma form
+{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom:50px;
+}
+
+    #encuentraPrograma form select
+    {
+        margin-bottom:10px;
+    }
+
+    #encuentraPrograma form input[type="submit"]
+    {
+        margin-left:0;
+    }
+
+#listaprogramas
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom:0;
+    padding-top:0;
+}
+
+#buscadorProgramas{
+    margin-bottom:100px;
+}
+/*******END - ENCUENTRA PROGRAMA*********/
+
+#ventajasEstudiar
+{
+    margin-top:120px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+      #listaprogramas .item
+     {
+         width: 45%;
+     }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+    #imgTop
+    {
+        margin-bottom: 0;
+    }
+
+    #ventajasEstudiar h1
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    #buscarPaquete
+    {
+        align-items: center;
+        background: transparent;
+        border-top:0;
+        display: inline;
+        margin-top: -284px;
+        padding-bottom:20px;
+        text-align: left;
+        position: absolute;
+        z-index: 10;
+    }
+
+    #buscarPaquete h3
+    {
+        text-align: left;
+        margin-left:12px;
+        margin-bottom:0;
+    }
+
+    #buscarPaquete form
+    {
+        flex-direction: row;
+    }
+
+    #buscarPaquete hgroup
+    {
+        border-bottom:1px solid #ddd;
+        margin-bottom:10px;
+    }
+
+    #buscarPaquete hgroup h1
+    {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    #buscarPaquete hgroup h2
+    {
+        text-align: left;
+    }
+
+        #buscarPaquete hgroup,
+        #buscarPaquete .infoPaquete
+        {
+            background: white;
+        }
+
+        #buscarPaquete ul li
+        {
+            border-bottom:1px solid #d1d1d1;
+        }
+
+        #buscarPaquete .infoPaquete
+        {
+            float: right;
+        }
+
+        #buscarPaquete .col-md-6
+        {
+            background: white;
+            max-width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            width: auto;
+        }
+
+    #buscarPaquete .row
+    {
+        align-items: flex-start;
+    }
+
+    #listaprogramas h1 .fa
+    {
+        font-size: 50px;
+    }
+
+    #etiquetas .labelcontainer
+    {
+        width: 80%
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+   #listaprogramas .item
+   {
+        width: 220px;
+   }
+}

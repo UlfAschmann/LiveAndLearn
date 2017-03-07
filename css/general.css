@@ -428,6 +428,16 @@ footer
         color:#0f2749;
     }
 
+.etiqueta
+{
+    font-size: 12px;
+    background: #D1D1D1;
+    border-radius: 15px;
+    padding:2px 8px;
+    display: inline-block;
+    margin:5px;
+}
+
 .item
 {
     margin-bottom: 20px;
