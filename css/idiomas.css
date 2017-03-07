@@ -108,6 +108,16 @@ main section:last-child
             }
 /*******END - DATOS DE PAQUETE*********/
 
+#elige .infoIdiomas> div
+{
+    margin:0 auto;
+    width: 80%;
+}
+
+#elige .infoIdiomas .item img
+{
+    display: block;
+}
 
 /*******VENTAJAS*********/
 
@@ -179,6 +189,9 @@ main section:last-child
     padding-left:12px;
     padding-bottom:10px;
 }
+
+
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){
@@ -338,5 +351,6 @@ main section:last-child
     #listaprogramas .item
      {
          width: 220px;
+         margin:0;
      }
 }
