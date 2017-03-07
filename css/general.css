@@ -247,6 +247,7 @@ nav .toogle
 nav#navSecundario
 {
     background: #d1d1d1;
+    padding:5px;
 }
 
     nav#navSecundario a
@@ -256,16 +257,17 @@ nav#navSecundario
         text-align: center;
     }
 
+    nav#navSecundario select
+    {
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        width: 80%;
+    }
+
     nav#navSecundario ul
     {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin:0;
-        padding:0;
-        list-style: none;
-        margin:0 auto;
-        max-width: 1100px;
+        display: none;
     }
 
         nav#navSecundario ul li
@@ -678,6 +680,11 @@ footer
     /******END - NAV********/
     
     /******NAV SECUNDARIO********/
+    nav#navSecundario
+    {
+        padding:0;
+    }
+
     nav#navSecundario a
     {
         font-size: 12px;
@@ -685,13 +692,25 @@ footer
 
     nav#navSecundario ul
     {
+        display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        margin:0;
+        padding:0;
+        list-style: none;
+        margin:0 auto;
+        max-width: 1100px;
     }
 
         nav#navSecundario ul li
         {
             text-align: center;
             padding:3px;
+        }
+
+        nav#navSecundario select
+        {
+            display: none;
         }
     /******END NAV SECUNDARIO********/
 

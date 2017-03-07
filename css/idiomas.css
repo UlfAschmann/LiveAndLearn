@@ -8,6 +8,14 @@ main section:last-child
     padding-bottom:70px;
 }
 
+/*****navSecundario******/
+
+#navSecundario ul
+{
+    display: none;
+}
+
+/*****navSecundario******/
 
         #buscarPaquete
         {
@@ -303,11 +311,26 @@ main section:last-child
     {
         align-items: flex-start;
     }
+
+    #elige .infoIdiomas
+    {
+        justify-content: center;
+    }
+
+    #elige .infoIdiomas> div
+    {
+        width: 30%;
+        margin:10px;
+    }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px){
-
+    #elige .infoIdiomas> div
+    {
+        width: 15%;
+        margin:5px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
