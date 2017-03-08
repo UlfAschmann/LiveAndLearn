@@ -76,6 +76,18 @@ form
         padding:0 8px;
     }
 
+form .validator
+{
+    color: #bc082f;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+form .validator.text-center
+{
+   width: 100%;
+}
+
 strong.live
 {
     font-family: 'Avenir Next LT Pro';
@@ -274,6 +286,11 @@ nav#navSecundario
         {
             padding:8px 5px
         }
+
+.navbar-default .navbar-toggle:focus
+{
+    background: white;
+}
 /******END NAV SECUNDARIO********/
 
 /******MAIN******/
