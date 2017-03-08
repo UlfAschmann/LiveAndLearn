@@ -88,6 +88,11 @@ form .validator.text-center
    width: 100%;
 }
 
+form .error
+{
+    border-color:#bc082f !important;
+}
+
 strong.live
 {
     font-family: 'Avenir Next LT Pro';

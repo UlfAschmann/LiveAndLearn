@@ -79,12 +79,6 @@
         margin-bottom:15px;
     }
 
-#formulario form .error
-{
-    border-color:#bc082f;
-}
-
-
 #formulario form .fechaNacimiento div
 {
     align-content:flex-end;
