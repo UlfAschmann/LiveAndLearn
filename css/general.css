@@ -71,9 +71,17 @@ form
 
     form select
     {
+        border-color: #0f2749;
         font-family: 'Raleway', sans-serif;
         height: 32px;
         padding:0 8px;
+    }
+
+    form textarea
+    {
+        border-color: #0f2749;
+        font-family: 'Raleway', sans-serif;
+        padding:4px 8px;
     }
 
 form .validator

@@ -1,0 +1,209 @@
+main section:first-child{
+    padding-top: 0;
+}
+
+main .container
+{
+    padding-top: 60px;
+}
+
+/*************FINANCIAMIENTO***************/
+#financiamiento
+{
+    padding-bottom:10px;
+}
+
+#financiamiento article
+{
+    margin-bottom:50px;
+    margin-top: 30px;
+}
+
+#financiamiento article:first-child
+{
+    margin-bottom:0;
+    margin-top:0;
+}
+
+#financiamiento h1
+{
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom:40px;
+    text-align: left;
+}
+
+#financiamiento h3
+{
+       color: #BC082F;
+       font-size: 25px;
+}
+
+#financiamiento img
+{
+    width: 100%;
+    margin-top:10px;
+}
+/*************END FINANCIAMIENTO***************/
+
+/*************CONTÁCTANOS***************/
+#contactanos
+{
+    margin-bottom:30px;
+}
+
+    #contactanos form
+    {
+        flex-direction: column;
+    }
+
+    #contactanos h1
+    {
+        color: #BC082F;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+    }
+
+    #contactanos .form-group
+    {
+        margin-bottom: 10px;
+    }
+
+    #contactanos .validator
+    {
+        display: none;
+        margin-bottom:5px;
+    }
+
+
+    #contactanos input,
+    #contactanos select,
+    #contactanos textarea
+    {
+        width: 100%;
+    }
+
+    #contactanos textarea
+    {
+        height: 125px;
+    }
+/*************END - CONTÁCTANOS***************/
+
+/*************COMENTARIOS***************/
+#comentarios
+{
+    background: #D1D1D1;
+}
+
+    #comentarios img
+    {
+        margin-bottom:18px;
+    }
+
+    #comentarios .container
+    {
+        padding-bottom: 20px;
+        padding-top:20px;
+    }
+
+    #comentarios .row
+    {
+        justify-content: center;
+    }
+
+        #comentarios .row div
+        {
+            width: 90%;
+        }
+
+            #comentarios .row div p
+            {
+                margin-bottom:3px;
+            }
+
+            #comentarios .row div hr
+            {
+                border-top-color:#BC082F;
+                width: 40px;
+            }
+    #comentarios #nombreCliente
+    {
+        color: #BC082F;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    #comentarios #descripcionCliente
+    {
+        color: #BC082F;
+        font-weight: bold;
+        font-style: italic;
+    }
+/*************END - COMENTARIOS***************/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+    main .container
+    {
+        padding-top: 140px;
+    }
+
+    #financiamiento
+    {
+        padding-bottom:20px;
+    }
+
+        #financiamiento h3
+        {
+            font-size: 30px;
+        }
+
+    #contactanos
+    {
+        margin-bottom:0;
+    }
+
+
+    #contactanos form input
+    {
+        margin-left:0;
+    }
+
+    #comentarios .row
+    {
+        align-items: center;
+        flex-flow: row;
+        justify-content:flex-start;
+        margin:0 auto;
+    }
+
+    #comentarios .row div
+    {
+        margin-left:40px;
+    }
+
+        #comentarios .row div hr
+        {
+            margin-left:0;
+        }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+    #comentarios .row
+    {
+         width: 70%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+}
