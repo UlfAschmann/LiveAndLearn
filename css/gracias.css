@@ -1,0 +1,103 @@
+main
+{
+    padding-bottom:0;
+}
+
+#gracias
+{
+    margin:0;
+    padding:0;
+}
+
+
+#gracias #imgGracias
+{
+    display: none;
+
+}
+
+#gracias #infoGracias
+{
+    background: #bc082f;
+    color:white;
+    padding:30px 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#gracias #infoGracias img
+{
+    margin-bottom:10px;
+}
+
+#gracias #infoGracias p
+{
+    margin-top:50px;
+    font-size: 20px;
+}
+
+#gracias #infoGracias h1
+{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#gracias .cerrar
+{
+    margin-right: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+    #gracias
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #gracias #imgGracias
+    {
+        background-position:center top;
+        background-size: cover;
+        display: block;
+        width: 50%;
+        height: 600px;
+    }
+
+    #gracias #infoGracias
+    {
+        width: 50%;
+    }
+
+    #gracias #infoTexto{
+        margin:0 auto;
+        transform: translateY(30%);
+        width: 70%;
+    }
+
+    #gracias #infoGracias p
+    {
+        font-size: 30px;
+    }
+
+    #gracias #infoTexto h1
+    {
+        font-size: 54px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+}

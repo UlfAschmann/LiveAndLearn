@@ -460,6 +460,14 @@ footer
         color:#0f2749;
     }
 
+.cerrar
+{
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+}
+
 .etiqueta
 {
     font-size: 12px;
