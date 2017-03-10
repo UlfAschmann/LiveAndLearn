@@ -12,8 +12,10 @@ main
 
 #gracias #imgGracias
 {
-    display: none;
-
+    background-position:center top;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
 }
 
 #gracias #infoGracias
@@ -43,11 +45,6 @@ main
     font-weight: normal;
 }
 
-#gracias .cerrar
-{
-    margin-right: 30px;
-}
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){
 
@@ -63,9 +60,6 @@ main
 
     #gracias #imgGracias
     {
-        background-position:center top;
-        background-size: cover;
-        display: block;
         width: 50%;
         height: 600px;
     }
