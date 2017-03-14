@@ -8,17 +8,18 @@
 	<meta name="author" content="">
 	<link rel="icon" href="img/favicon.png">
 
-	<title>Live and Learn | Gracias</title>
+	<title>Live and Learn | Blog</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="cssbs4/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/general.css">
-	<link rel="stylesheet" href="css/gracias.css">
+	<link rel="stylesheet" href="css/blog-home.css">
 
 	<!-- Custom styles for this template -->
 </head>
 
 <body>
+
    <header class="container-fluid">
             <div class="logo-header">
                 <a href="#">
@@ -73,20 +74,106 @@
         </div>
     </nav>
 
-    <main>
-        <section id="gracias">
-           <div id="imgGracias" style="background-image:url(../img/gracias/imgGracias.png); "></div>
-           <div id="infoGracias">
-                <div id="infoTexto">
-                    <img src="img/gracias/correcto.png" alt="Enviado">
-                    <h1>¡Gracias por suscribirte!</h1>
-                    <p>Tus datos han quedado almacenados correctamente. </p>
-                </div>
+   <main>
+       <section id="imgTop" style="background-image: url(img/home/slider/budapest.jpg);"></section>
+
+       <div class="breadcrumb-section">
+           <div class="container">
+               <div class="row">
+                    <ol class="breadcrumb">
+                         <li class="breadcrumb-item"><a href="#">Home</a></li>
+                         <li class="breadcrumb-item">Blog</li>
+                   </ol>
+               </div>
            </div>
-        </section>
+       </div>
+
+       <section class="container">
+       <div class="row">
+              <section class="col-md-4" id="encuentraEntrada">
+                   <h1>Encuentra una entrada de blog</h1>
+                   <form action="">
+                       <select name="" id="">
+                                   <option value="0">
+                                       Elige la edad
+                                   </option>
+                                   <option value="1">
+                                       1
+                                   </option>
+                                   <option value="2">
+                                       2
+                                   </option>
+                        </select>
+                        <select name="" id="">
+                                   <option value="0">
+                                       Elige un idioma
+                                   </option>
+                                   <option value="1">
+                                       1
+                                   </option>
+                                   <option value="2">
+                                       2
+                                   </option>
+                        </select>
+                        <input type="text" placeholder="Palabra(s) clave(s)">
+                        <input type="submit" value="Buscar">
+                   </form>
+
+              </section>
+
+              <div class="col-md-7 offset-md-1">
+                  <section id="listaprogramas">
+
+                     <article class="itemBlog">
+                         <div class="categoria">
+                             <h3>Cursos de idioma</h3>
+                             <p class="flecha">9 dic 2016</p>
+                         </div>
+                         <figure>
+                             <img src="img/blog/imgHeaderArticulo.jpg" alt="Imagen superior de articulo">
+                         </figure>
+                         <h3>¿Se puede trabajar y estudiar en Canadá?</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugit, laboriosam cumque architecto odit, incidunt numquam? A neque placeat, quidem suscipit repellendus eligendi iste dolorem. Accusamus quos sequi rem, ipsum?</p>
+                         <button>Leer entrada</button>
+                     </article>
+
+                     <article class="itemBlog">
+                         <div class="categoria">
+                             <h3>Cursos de idioma</h3>
+                             <p class="flecha">9 dic 2016</p>
+                         </div>
+                         <figure>
+                             <img src="img/blog/imgHeaderArticulo.jpg" alt="Imagen superior de articulo">
+                         </figure>
+                         <h3>¿Se puede trabajar y estudiar en Canadá?</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugit, laboriosam cumque architecto odit, incidunt numquam? A neque placeat, quidem suscipit repellendus eligendi iste dolorem. Accusamus quos sequi rem, ipsum?</p>
+                         <button>Leer entrada</button>
+                     </article>
+
+                      <article class="itemBlog">
+                         <div class="categoria">
+                             <h3>Cursos de idioma</h3>
+                             <p class="flecha">9 dic 2016</p>
+                         </div>
+                         <figure>
+                             <img src="img/blog/imgHeaderArticulo.jpg" alt="Imagen superior de articulo">
+                         </figure>
+                         <h3>¿Se puede trabajar y estudiar en Canadá?</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugit, laboriosam cumque architecto odit, incidunt numquam? A neque placeat, quidem suscipit repellendus eligendi iste dolorem. Accusamus quos sequi rem, ipsum?</p>
+                         <button>Leer entrada</button>
+                     </article>
+                      <div class="paginacion">
+                          <div class="actual"><p>1</p></div>
+                          <div><p>2</p></div>
+                       </div>
+                 </section>
+
+              </div>
+          </div>
+      </section>
     </main>
 
-    <footer>
+   <footer>
         <div class="container">
             <div class="row">
                 <div class="col newsletter">
@@ -140,6 +227,7 @@
 	<script src="js/vendor/owl.carousel.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/general.js"></script>
+    <script src="js/single.js"></script>
 </body>
 
 </html>
