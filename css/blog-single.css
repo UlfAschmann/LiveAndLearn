@@ -1,0 +1,230 @@
+main
+{
+    padding-bottom: 0;
+}
+
+main section:last-child
+{
+    padding-bottom:40px;
+}
+
+main section:first-child {
+    padding-top: 0;
+}
+
+#categoria h2
+{
+    border-bottom: 1px solid #D1D1D1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom:15px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#categoria article
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    #contenidoArticulo article h3
+    {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom:25px;
+        margin-top:25px;
+    }
+
+    #categoria article .fecha
+    {
+
+        font-style: italic;
+        font-size:16px;
+    }
+
+    #categoria article .redesSociales
+    {
+        align-items: center;
+        display: flex;
+    }
+
+        #categoria article .redesSociales a
+        {
+            color:#BC082F;
+            font-size: 30px;
+            margin-right:10px;
+        }
+
+        #categoria article .redesSociales h3
+        {
+            font-size: 18px;
+            margin-bottom: 0;
+            visibility: hidden;
+        }
+
+#contenidoArticulo figure,
+#contenidoArticulo img
+{
+    width: 100%;
+}
+
+#contenidoArticulo figure
+{
+    margin-bottom:50px;
+}
+
+#contenidoArticulo h1
+{
+    color:#BC082F;
+    line-height: 34px;
+}
+
+##otrosArticulos
+{
+    border-top:1px solid #d1d1d1;
+}
+
+    #otrosArticulos .item
+    {
+        width: 100%;
+    }
+
+    #otrosArticulos .row:last-child
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    #otrosArticulos .infoItem
+    {
+        background: #bc082f;
+        color:white;
+        padding:15px;
+    }
+
+        #otrosArticulos .infoItem button
+        {
+            border: 1px solid white;
+            margin-top:24px;
+            width: 100%;
+        }
+
+        #otrosArticulos .infoItem h4,
+        #otrosArticulos .infoItem .tipo
+        {
+            border-bottom: 1px solid white;
+        }
+
+        #otrosArticulos .infoItem h4
+        {
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom:10px;
+        }
+
+        #otrosArticulos .infoItem .tipo
+        {
+            margin:0;
+            padding-bottom:8px;
+        }
+
+        #otrosArticulos .infoItem .fecha
+        {
+            font-style: italic;
+            font-size: 14px;
+            margin:0;
+            margin-top: 5px;
+            padding:0;
+        }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+    .breadcrumb-section
+    {
+        margin-bottom:60px;
+    }
+
+    main section
+    {
+        margin-top:0;
+        padding-top: 0;
+    }
+
+    main section:first-child
+    {
+        padding-top:0px;
+    }
+
+    main section:last-child
+    {
+        padding-bottom:80px;
+    }
+
+    section#imgTop
+    {
+        height: 200px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    #categoria article
+    {
+       align-items: stretch;
+       flex-direction: column;
+    }
+
+        #categoria article .fecha
+        {
+             border-bottom:1px solid #D1D1D1;
+             padding-bottom:8px;
+        }
+
+        #categoria article .redesSociales
+        {
+            display: block;
+        }
+
+            #categoria article .redesSociales h3
+            {
+                visibility: visible;
+            }
+
+    #contenidoArticulo h1
+    {
+        line-height: 60px;
+        text-align: left;
+    }
+
+    #otrosArticulos .item
+    {
+        width: 24%;
+    }
+
+    #otrosArticulos .row:last-child
+    {
+        flex-direction: row;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+}
