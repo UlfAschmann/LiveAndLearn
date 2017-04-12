@@ -216,57 +216,61 @@ header .redesSociales a
 /*****>END - HEADER PRINCIPAL******/
 
 /******NAV********/
-nav #menuPrincipal
+
+.navbar
 {
-    background: #0f2749;
+    padding:0;
 }
 
-    nav #menuPrincipal
-    {
-        display: none;
-        margin-top:20px;
-    }
-
-        nav #menuPrincipal a
-        {
-             color:white;
-        }
-
-    nav #menuPrincipal li
-    {
-        padding-top:8px;
-        padding-bottom:8px;
-        padding-left:30px; 
-    }
-
-nav .headerMobile
+nav .navbar-nav
 {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+     background: #0f2749;
 }
 
+nav .navbar-nav .nav-item
+{
+    padding-left:15px;
+}
 
-nav .headerMobile a
+nav .navbar-nav .nav-item .nav-link
+{
+    color: white;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover
+{
+    color:rgba(255,255,255,.9);
+}
+
+nav .logoMobile
 {
     margin-left: 10px;
     width: 160px;   
 }
 
-    nav .headerMobile a img
+    nav .logoMobile img
     {
         width:160px;
     }
 
-nav .toogle
+nav.navbar-light  .navbar-toggler
 {
+    background:#bc082f;
+    border: 0;
+    border-radius: 0;
+    color:white;
     cursor: pointer;
-    float: right;
-    margin-right: 10px;
-    padding: 5px 13px;
+    font-size: 12px;
+    margin-top: 9px;
+    padding:10px 14px;
+    z-index: 10;
 }
-/******END - NAV********/
+
+    nav.navbar-light  .navbar-toggler:focus,
+    nav.navbar-light  .navbar-toggler:hover
+    {
+        color:white;
+    }
 
 /******NAV SECUNDARIO********/
 nav#navSecundario
@@ -299,13 +303,10 @@ nav#navSecundario
         {
             padding:8px 5px
         }
-
 .navbar-default .navbar-toggle:focus
 {
     background: white;
 }
-/******END NAV SECUNDARIO********/
-
 /******MAIN******/
 main
 {
@@ -688,32 +689,32 @@ footer
     /*****>HEADER PRINCIPAL******/
     
     /******NAV********/
-    nav #menuPrincipal{
-        display: block;
-    }
     
-    nav #menuPrincipal a
+    .navbar-toggleable-md .navbar-nav
     {
-        font-size: 14px;    
-    }
-    
-    nav #menuPrincipal ul
-    {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
         width: 100%;
+        justify-content: space-around;
+        position: relative;
     }
     
-    nav #menuPrincipal li
-    {
-        flex-grow: 1;
-        padding-left: 0;
-    }
-    
-     nav .headerMobile
+    .navbar-brand
     {
         display: none;
+    }
+    
+    nav.navbar
+    {
+        background: #0f2749;
+    }
+
+    .navbar-light .navbar-nav .nav-link
+    {
+        color:white;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover
+    {
+        color:rgba(255,255,255,.9);
     }
     /******END - NAV********/
     
@@ -862,7 +863,7 @@ footer
         max-width: 1200px;
     }
     
-    nav #menuPrincipal ul
+    nav .navbar-toggleable-md .navbar-nav
     {
         max-width: 1200px;
         margin:0 auto;
